@@ -1,6 +1,6 @@
 import React from 'react';
-import "../../styles/Header.css"
-import"../../styles/all.css"
+import '../../styles/styles'
+
 import { NavLink , useLocation ,BrowserRouter} from 'react-router-dom';
 
 

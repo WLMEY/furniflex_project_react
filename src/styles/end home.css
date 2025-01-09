@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body {
+    /* height: 100vh; */
+    font-family: "Fredoka", sans-serif;
+}
+
+:root {
+    --color_main: #2D5356;
+    --color_sup: #FCF8F0;
+    --color_sup2: #F5F5F5;
+    --text_main: #515151;
+    --text_sup: #383838;
+    --text_bg: #FCF8F0;
+    --yellow: #FFBA35;
+    --btn: #D09423;
+    --btn_hover: #a5751c;
+    --shadow: #E6EDEC;
+}
+.endHome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* align-self: flex-end; */
+    width: 100%;
+    height: fit-content;
+    margin-top: 2vh;
+}
+
+.start{
+    width: 100%;
+    text-align: center;
+    padding:5vh 0;
+
+}
+.logo{
+    margin: 2vh 0;
+}
+.logo span{
+    font-size: 50px;
+}
+
+.pages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    padding: 3vh 10vw;
+    list-style-type: none;
+    width: 100%;
+    height: fit-content;
+    line-height: 30px;
+    /* background-color: red; */
+    color: var(--text_main);
+}
+
+.about li:hover,
+.information li:hover,
+.support li:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* height: vh; */
+    background-color: var(--color_main);
+    color: var(--text_bg);
+    padding: 2vh 10vw;
+}
+.madia i{
+    width: 30px ;
+    height: 30px;
+    /* margin: px; */
+    border-radius: 50%;
+    border: 1px solid rgb(189, 187, 187);
+    text-align: center;
+    padding-top: 5px;
+    background-color: #39686b;
+    font-size: 16px;
+}
+.madia i:hover{
+    background-color: #509196;
+}
+.paymant i{
+    margin: 0 2px;
+}
+
+
+@media (max-width:768px){
+    body {
+        height: 52vh;
+        font-family: "Fredoka", sans-serif;
+    }
+    
+
+    .endHome {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        margin-top: 2vh;
+    }
+    
+    .start{
+        width: 100%;
+        text-align: center;
+        padding:5vh 0;
+    
+    }
+    .logo{
+        margin: 2vh 0;
+    }
+    .logo span{
+        font-size: 30px;
+    }
+    
+    .pages {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: start;
+        padding: 3vh 3vw;
+        list-style-type: none;
+        width: 100%;
+        height: 100vh;
+        line-height: 30px;
+        font-size: 12PX;
+        /* background-color: red; */
+        color: var(--text_main);
+
+    }
+    
+    .about li:hover,
+    .information li:hover,
+    .support li:hover {
+        color: black;
+        cursor: pointer;
+    }
+    
+    .end {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        /* height: vh; */
+        background-color: var(--color_main);
+        color: var(--text_bg);
+        padding: 2vh 3vw;
+        font-size: 12PX;
+    }
+    .madia i{
+        width: 20px ;
+        height: 20px;
+        /* margin: px; */
+        border-radius: 50%;
+        border: 1px solid rgb(189, 187, 187);
+        text-align: center;
+        padding-top: 5px;
+        background-color: #39686b;
+        font-size: 12px;
+    }
+    .madia i:hover{
+        background-color: #509196;
+    }
+    .paymant i{
+        margin: 0 2px;
+    }
+    
+    
+}
+@media (max-width:405px){
+    .end {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+@media (min-width:1200px) {
+    .end {
+        font-size: x-large;
+    }
+    .madia i{
+        width: 40px ;
+        height:40px;
+
+        border-radius: 50%;
+        border: 1px solid rgb(189, 187, 187);
+        text-align: center;
+        padding-top: 10px;
+        background-color: #39686b;
+        font-size: 20px;
+        margin: 0 10px;
+    }
+
+}
