@@ -7,3 +7,4 @@ import './Advertising.css';
 import './Header.css';
 import './end home.css';
 import './shoppingcart.css';
+import './Home.css';
