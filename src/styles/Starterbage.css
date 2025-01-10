@@ -1,0 +1,22 @@
+
+
+
+
+
+
+
+.starterbage{
+background-color:#2D5356 ;
+width: 100%;
+height: 30vh;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 5vh;
+
+}
+h1{
+    color: white;
+    font-weight: 900;
+    font-size: 42px ;
+}

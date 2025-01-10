@@ -6,6 +6,7 @@ import Advertising from './component/Advertising/Advertising';
 import EndHome from './component/End Home/End Home';
 import ShoppingCart from './component/Shopping Cart/Shopping Cart';
 import Home from './pages/Home/Home';
+import ShoppingCartMain from './pages/Shopping Cart/Shopping Cart main';
 
 
 
@@ -17,7 +18,9 @@ function App() {
     {/* <Advertising /> */}
     {/* < EndHome /> */}
     {/* <ShoppingCart />  */}
-    <Home />
+
+    {/* <Home /> */}
+    <ShoppingCartMain/>
 
     </BrowserRouter>
   
