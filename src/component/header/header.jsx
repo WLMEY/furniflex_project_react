@@ -34,15 +34,15 @@ const Header = () => {
             <li><NavLink to="/">Home</NavLink></li>
             <li><NavLink to="/Products">Products</NavLink></li>
             <li><NavLink to="/Categories">Categories</NavLink></li>
-            <li><NavLink to="About_us">About Us</NavLink></li>
-            <li><NavLink to="/Contact_Us">Contact Us</NavLink></li>
+            <li><NavLink to="/AboutUs">About Us</NavLink></li>
+            <li><NavLink to="/Contact">Contact Us</NavLink></li>
             <li><NavLink to="/Blog">Blog</NavLink></li>
 
         </div>
         <div className="h3">
             <li><i className="fa-solid fa-magnifying-glass"></i></li>
             <li><i className="fa-regular fa-heart"></i></li>
-            <li><i className="fa-solid fa-bag-shopping"></i></li>
+            <li><NavLink to={'/ShoppingCartMain'}><i className="fa-solid fa-bag-shopping"></i></NavLink></li>
             <li><i className="fa-regular fa-user"></i></li>
         </div>
         <div className="h4">
