@@ -3,19 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
-    width: 100vw;
-    
-    
+    /* width: 100vw; */
 }
 .Advertising{
     padding: 0 10vw;
     width: 100vw;
-    height: 40vh;
+    height: 20vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
+    /* background-color: red; */
 }
 :root {
     --color_main:#2D5356;
@@ -30,7 +30,7 @@ body{
     --shadow:#E6EDEC;
 }
 .Advertising div{
-    height: 200px;
+    height: fit-content;
     width: 100px;
     display: flex;
     flex-direction: column;

@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
- 
+
 body {
     /* background-color: #2D5356; */
     height: 100vh;
@@ -13,7 +13,7 @@ body {
 .HOME {
     /* padding-left: 10px; */
     width: 100vw;
-    height:100vh;
+    height: 100vh;
     font-family: "Poppins", sans-serif;
     /* padding-top: 10vh; */
 
@@ -29,6 +29,8 @@ body {
     /* flex-direction: ; */
     /* background-color: green; */
     background-color: #2D5356;
+    background-image: url(/public/Materials/backgraound/wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
 }
 
 .Firsthalf {
@@ -48,23 +50,26 @@ body {
 .Field {
     text-transform: uppercase;
     padding: 10px;
-    background-color: rgba(255,255, 255,0.3 );
-    border: 1px solid  rgba(255,255, 255,0.4 );
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.4);
     border-radius: 10px;
     width: fit-content;
     padding: 5px 10px;
-    font-size: 16px;  /* h4 */
+    font-size: 16px;
+    /* h4 */
 }
-.text h1{
+
+.text h1 {
     text-transform: capitalize;
     font-size: 52px;
     margin-top: 1vh;
 }
-.text .home_paragraph{
-    font-size:16px ;
+
+.text .home_paragraph {
+    font-size: 16px;
     margin-top: 5vh;
     line-height: 1.5;
-    
+
 }
 
 .buttons {
@@ -88,13 +93,14 @@ body {
     color: white;
     font-size: 16px;
 }
-.buttons .input:hover{
+
+.buttons .input:hover {
     background-color: #f3af30;
     transition: all 0.2s;
 }
 
 .Statistics {
-    width:fit-content;
+    width: fit-content;
     display: flex;
     flex-direction: row;
     gap: 5vw;
@@ -102,7 +108,7 @@ body {
 }
 
 .Statistic {
-    
+
     /* background-color: aqua; */
 }
 
@@ -110,77 +116,116 @@ body {
     /* background-color: blue; */
     width: 50%;
 }
-.rooms{
-height: 60%;
-/* background-color: #00ffff; */
-width: 100%;
-display: flex;
-flex-direction: row;
-gap: 1vw;
+
+.rooms {
+    height: 60%;
+    /* background-color: #00ffff; */
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
 
 
 }
-.room1{
-    width: 350px;
+
+.room2:hover {
+    /* width: 350px; */
     height: 480px;
     border-radius: 15px;
     overflow: hidden;
     position: relative;
+    flex-grow: 1;
+    transition: all ease 1s;
 }
-.room2{
+
+.room2:hover img {
+    width: fit-content;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(0deg);
+    /* transition: transform linear 0.2s; */
+
+}
+
+.room2:hover .detils {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px;
+    bottom: 50px;
+    font-size: x-large;
+    transform: rotate(0deg);
+
+}
+
+.room2 {
     width: 150px;
     height: 480px;
     border-radius: 15px;
     overflow: hidden;
     position: relative;
+    transition: all ease 1s;
+
 }
-.room1 .detils{
+
+/* .room3{
+    width: 150px;
+    height: 480px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+} */
+/* .room1 .detils{
     position: absolute;
     display:flex;
     justify-content: space-between;
     width: 100%;
     padding: 15px;
     bottom: 0 ;
-}
-.room2 .detils{
+} */
+
+.room2 .detils {
     position: absolute;
-    display:flex;
+    display: flex;
     justify-content: space-between;
     width: 100%;
     padding: 15px;
-    bottom: 50px ;
-    /* right: 0; */
+    bottom: 50px;
     font-size: x-large;
     transform: rotate(-90deg);
 
 }
-.room2 img{
+
+.room2 img {
     width: 500px;
     height: 500px;
     transform: rotate(-90deg);
 }
 
-.Secondhalf .icon button{
+.Secondhalf .icon button {
     width: fit-content;
     padding: 5px 20px;
     color: white;
-    background-color: rgba(255,255, 255,0.1 );
-    border: 1px solid  rgba(255,255, 255,0.2 );
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 15px;
 
 }
-.Secondhalf .icon button:hover{
+
+.Secondhalf .icon button:hover {
     background-color: #f3af30;
 }
 
-.component{
-background-color: red;
-}
+/* ------------------------------------------------------------- */
+/* items_show */
 
-.items_show{
+.items_show {
     display: grid;
-    grid-template-columns:repeat(7, 10vw);
-    grid-template-rows: repeat(4,15vh);
+    grid-template-columns: repeat(7, 10vw);
+    grid-template-rows: repeat(4, 15vh);
     width: 70%;
     height: 80vh;
     gap: 20px;
@@ -191,51 +236,131 @@ background-color: red;
 
 }
 
-.Items{
+.Items {
     border-radius: 15px;
-    background-color: rgba(100,100, 100,0.2 );
+    background-color: rgba(245, 245, 245, 0.96);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 10px;
+    padding: 20px;
 }
-.Items .image{
+
+.Items .image {
     width: fit-content;
+    background-color: transparent;
+
+    /* transform: scale(1.2); */
+    /* mix-blend-mode:  hard-light */
+
 }
-.item_1{
+
+.item_1 {
     grid-row: 1/3;
-    grid-column:1/5 ;
+    grid-column: 1/5;
     /* background-color: rebeccapurple; */
 
 }
-.item_2{
+
+.item_2 .image {
+    position: absolute;
+    z-index: 0;
+    right: 0;
+}
+
+.item_2 {
     grid-row: 3/5;
     grid-column: 1/3;
+    position: relative;
     /* background-color: rgb(72, 40, 104); */
 
 }
-.item_3{
+
+.item_3 {
     grid-row: 3/5;
     grid-column: 3/5;
-    /* background-color: rgb(39, 32, 46); */
+    background-color: #2D5356;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+
+
 
 }
-.item_4{
+
+.item_3 span {
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.item_3 .look {
+    background-color: #D09423;
+    border-radius: 30px;
+    padding: 10px;
+    /* background-image: url(); */
+}
+
+.item_4 {
     grid-row: 1/5;
     grid-column: 5/8;
     /* background-color: rgb(66, 60, 71); */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 
 }
-.texts{
+
+.item_4 .image {
+    transform: scale(2);
+}
+
+.item_4 .texts,
+.item_2 .texts {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+
+}
+
+.texts {
     display: flex;
     flex-direction: column;
     gap: 5px;
     padding: 10px;
-}
-.texts span{
+    line-height: 1.5;
+    
 
 }
-.texts ul li{
+
+.ISh {
+    background-color: white;
+    border: 1px solid #a6aaaa;
+}
+
+.texts span {}
+
+.texts ul li {
     list-style-type: none;
 }
 
+.texts a {
+    color: #2D5356;
+    text-decoration: none;
+    position: relative;
+}
+
+.texts a::after {
+    content: '';
+    width: 80px;
+    background-color: #2D5356;
+    height: 1px;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+
+}

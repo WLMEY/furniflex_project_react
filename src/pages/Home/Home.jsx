@@ -1,13 +1,11 @@
 import React, { useState } from 'react';
 import '../../styles/styles';
+import Header from './../../component/header/header';
+import Advertising from './../../component/Advertising/Advertising';
+import EndHome from '../../component/End Home/End Home';
 
 
 const Home = () => {
-
-    const [mouse, setMouse] = useState(false);
-
-    const roomClass = mouse ? "room1" : "room2";
-
 
 
     return (
@@ -15,7 +13,7 @@ const Home = () => {
 
 
         <div className="HOME">
-
+            <Header />
             <div className="StartHome">
                 <div className="Firsthalf">
                     <div className="text">
@@ -52,39 +50,28 @@ const Home = () => {
 
                 <div className="Secondhalf">
                     <div className="rooms">
-                        <div className={roomClass}
-                            id="room"
-                            onMouseEnter={() => setMouse(true)}
-                            onMouseLeave={() => setMouse(false)}>                  <img src="/Materials/room/1.webp" alt="" />
+                        <div className="room2">
+                            <img src="/Materials/room/1.webp" alt="" />
                             <div className="detils">
                                 <span>Bed Room</span>
                                 <span>1200+ item</span>
                             </div>
                         </div>
-                        <div className={roomClass}
-                            id="room"
-                            onMouseEnter={() => setMouse(true)}
-                            onMouseLeave={() => setMouse(false)}>
+                        <div className="room2">
                             <img src="/Materials/Bedroom/2.jpg" alt="" />
                             <div className="detils">
                                 <span>Bed Room</span>
                             </div>
 
                         </div>
-                        <div className={roomClass}
-                            id="room"
-                            onMouseEnter={() => setMouse(true)}
-                            onMouseLeave={() => setMouse(false)}>
+                        <div className="room2">
                             <img src="/Materials/Bedroom/5.jpg" alt="" />
                             <div className="detils">
                                 <span>Bed Room</span>
                             </div>
 
                         </div>
-                        <div className={roomClass}
-                            id="room"
-                            onMouseEnter={() => setMouse(true)}
-                            onMouseLeave={() => setMouse(false)}>
+                        <div className="room2">
                             <img src="/Materials/Bedroom/3.jpg" alt="" />
                             <div className="detils">
                                 <span>Bed Room</span>
@@ -100,12 +87,19 @@ const Home = () => {
 
                 </div>
             </div>
-            <div className="component">#Advertising#</div>
 
+            {/* <div className="component">#Advertising#</div> */}
+
+            <Advertising />
+
+
+
+            {/*--------------------------------------------------------------------------------------------- */
+/* items_show */}
             <div className="items_show">
                 <div className="item_1 Items">
                     <div className="texts">
-                        <span className="Field">new collection</span>
+                        <span className="Field ISh">new collection</span>
                         <ul>
                             <li><span>name</span></li>
                             <li>square table</li>
@@ -116,12 +110,12 @@ const Home = () => {
                         <a href="#">View All <i className="fa-solid fa-arrow-right-long"></i> </a>
                     </div>
                     <div className="image">
-                        <img src="/Materials/table/2.png" width="300" height="300" alt="" />
+                        <img src="/Materials/table/5.png" width="300" height="300" alt="" />
                     </div>
                 </div>
                 <div className="item_2 Items">
                     <div className="texts">
-                        <span className="Field">new collection</span>
+                        <span className="Field ISh">new collection</span>
                         <ul>
                             <li><span>name</span></li>
                             <li>square table</li>
@@ -136,11 +130,12 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="item_3 Items">
-
+                <span className='look' >get discount</span>
+                <span>20% offer</span>
                 </div>
                 <div className="item_4 Items">
                     <div className="texts">
-                        <span className="Field">new collection</span>
+                        <span className="Field ISh">new collection</span>
                         <ul>
                             <li><span>name</span></li>
                             <li>square table</li>
@@ -151,14 +146,14 @@ const Home = () => {
                         <a href="#">View All <i className="fa-solid fa-arrow-right-long"></i> </a>
                     </div>
                     <div className="image">
-                        <img src="/Materials/table/2.png" width="300" height="300" alt="" />
+                        <img src="/Materials/chair/barrel chair 8.png" width="300" height="300" alt="" />
                     </div>
                 </div>
 
             </div>
 
 
-
+            <EndHome />
 
         </div>
     );
