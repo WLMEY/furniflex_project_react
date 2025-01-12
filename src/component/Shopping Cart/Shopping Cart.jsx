@@ -53,6 +53,41 @@ const ShoppingCart = () => {
                         </div>
                     </div>
                     {/* <!-- icon  "x"  --> */}
+                    <div className="summary container container_list ">
+                        <div className="product_img"> 
+                            <img src="/Materials/chair/barrel chair 8.jpg" alt="" />
+                            <span>Nova Nest Chair</span>
+                        </div>
+                        <span>$180.99</span>
+                        <div className="quantity">
+                            <button>-</button>
+                            <span>01</span>
+                            <button>+</button>
+                        </div>
+                        <div className="subtotal">
+                            <span>$180.99</span>
+                            <i className="fa-regular fa-circle-xmark"></i>
+                        </div>
+                    </div>
+                    {/* <!-- icon  "x"  --> */}
+                    <div className="summary container container_list ">
+                        <div className="product_img">
+                            <img src="/Materials/chair/barrel chair 8.jpg" alt="" />
+                            <span>Nova Nest Chair</span>
+                        </div>
+                        <span>$180.99</span>
+                        <div className="quantity">
+                            <button>-</button>
+                            <span>01</span>
+                            <button>+</button>
+                        </div>
+                        <div className="subtotal">
+                            <span>$180.99</span>
+                            <i className="fa-regular fa-circle-xmark"></i>
+                        </div>
+                    </div>
+                    {/* <!-- icon  "x"  --> */}
+
 
 
 
