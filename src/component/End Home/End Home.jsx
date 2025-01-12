@@ -5,7 +5,7 @@ import { NavLink } from 'react-router';
 const EndHome = () => {
 
     return (
-
+ 
 
         <div className="endHome">
             <div className="start">

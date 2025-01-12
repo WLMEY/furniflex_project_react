@@ -14,7 +14,7 @@ body {
 }
 
 .cart {
-
+ 
     width: 80%;
     display: grid;
     grid-template-columns: 60% 30%;
@@ -161,7 +161,7 @@ justify-self: center;
         justify-content:center;
         align-items: center;
         width: 100vw;
-        padding: 0 5vw;
+        /* padding: 0 5vw; */
     }
     .cart{
         width: 100%;
