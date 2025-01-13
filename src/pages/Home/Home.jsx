@@ -5,6 +5,7 @@ import Advertising from './../../component/Advertising/Advertising';
 import EndHome from '../../component/End Home/End Home';
 import FeaturedCategories from './featured categories';
 import NavigationArrows from './Navigation Arrows';
+import TrendingProducts from '../../component/Trending products/TrendingProducts';
 
 
 const Home = () => {
@@ -166,6 +167,8 @@ const Home = () => {
             </div>
 {/* ---------------------------------------------------------------------------------------------------------------- */}
                 <FeaturedCategories />
+                
+                <TrendingProducts/>
                 
                 
                 
