@@ -19,6 +19,7 @@ body {
     height: 100vh;
     font-family: "Poppins", sans-serif;
     /* padding-top: 10vh; */
+    overflow-x: hidden;
 
 }
 
