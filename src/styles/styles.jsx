@@ -11,4 +11,4 @@ import './Home.css';
 import './Starterbage.css';
 import './Navigation Arrows.css';
 import './FeaturedCategories.css';
-import '../../src/assets/fonts/Fredoka/static/Fredoka-Medium.ttf'
+import './size_color.css';

@@ -1,0 +1,62 @@
+:root {
+    --color_bg: rgba(245, 245, 245, 0.96);
+    --color_bg_btn:rgba(200, 200, 200, 0.96);
+    --color_main: #2D5356;
+    --color_sup: #FCF8F0;
+    --color_sup2: #F5F5F5;
+    --text_main: #515151;
+    --text_sup: #383838;
+    --text_bg: #FCF8F0;
+    --btn: #D09423;
+    --btn_hover: #a5751c;
+    --shadow: #E6EDEC;
+
+    --text_pc_header: 2rem; /* 32px */
+    --text_pc_sup_header:1.5rem;
+    --text_pc_items: 1.125rem;/* 18px */
+    --text_pc_btn: 1.25rem;/* 20px */
+
+    --text_m_header: 1.5rem;/* 24px */
+    --text_m_items: 1rem;/* 16px */
+    --text_m_btn: 1rem;/* 16px */
+}
+
+html {
+    font-size: 16px; /* الحجم الافتراضي */
+  }
+  
+  /* للشاشات الصغيرة جدًا (الهواتف الذكية الصغيرة) */
+  @media (max-width: 480px) {
+    html {
+      font-size: 14px;
+    }
+  }
+  
+  /* للشاشات الصغيرة (الهواتف الذكية العادية) */
+  @media (min-width: 481px) and (max-width: 768px) {
+    html {
+      font-size: 15px;
+    }
+  }
+  
+  /* للشاشات المتوسطة (الأجهزة اللوحية) */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    html {
+      font-size: 16px;
+    }
+  }
+  
+  /* للشاشات الكبيرة (أجهزة اللابتوب) */
+  @media (min-width: 1025px) and (max-width: 1440px) {
+    html {
+      font-size: 17px;
+    }
+  }
+  
+  /* للشاشات الكبيرة جدًا (الشاشات العريضة أو 4K) */
+  @media (min-width: 1441px) {
+    html {
+      font-size: 18px;
+    }
+  }
+  
