@@ -12,3 +12,4 @@ import './Starterbage.css';
 import './Navigation Arrows.css';
 import './FeaturedCategories.css';
 import './size_color.css';
+import './Scrollbar.css'

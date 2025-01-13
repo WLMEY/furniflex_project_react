@@ -1,0 +1,32 @@
+
+
+
+
+
+
+::-webkit-scrollbar{
+    width: 10px;
+    /* display: none; */
+
+}
+::-webkit-scrollbar-track{
+background:var(--color_bg);
+border-radius: 10px; 
+
+}
+::-webkit-scrollbar-thumb{
+background: var(--color_main);
+border-radius: 10px; /* منحنيات في المسار */
+
+
+
+}
+::-webkit-scrollbar-thumb:hover{
+    background: var(--color_main_hover);
+
+    
+}
+::-webkit-scrollbar-button {
+background-color: var(--btn);
+display: none;
+}
