@@ -1,5 +1,32 @@
 
 
+:root {
+    --text_pc_header: 2rem; /* 32px */
+    --text_pc_items: 1.125rem; /* 18px */
+    --text_pc_btn: 1.25rem; /* 20px */
+
+    --text_m_header: 1.5rem; /* 24px */
+    --text_m_items: 1rem; /* 16px */
+    --text_m_btn: 1rem; /* 16px */
+}
 
 
+.Fetured{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5vh 10vh;
+    align-items: flex-start;
+}
+.F_text{
+ font-size: var(--text_pc_header);
+ 
+}
+
+
+.F_iteams{
+
+}
 

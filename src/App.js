@@ -12,6 +12,7 @@ import Categories from './pages/categories/Categories';
 import AboutUs from './pages/About Us/AboutUs';
 import Contact from './pages/contact us/Contact';
 import Blog from './pages/Blog/Blog';
+import FeaturedCategories from './pages/Home/featured categories';
 
 const router=createBrowserRouter(
   createRoutesFromElements(
@@ -31,9 +32,14 @@ const router=createBrowserRouter(
 
 function App() {
   return <RouterProvider router={router} />;
-    // <BrowserRouter>
 
-    // <Header/>
+
+
+
+    // <BrowserRouter>
+    {/* <Header/> */}
+    {/* <FeaturedCategories/> */}
+
     {/* <Advertising /> */}
     {/* < EndHome /> */}
     {/* <ShoppingCart />  */}
@@ -41,7 +47,8 @@ function App() {
     {/* <Home /> */}
     {/* <ShoppingCartMain/> */}
 
-    {/* </BrowserRouter> */}
+    // </BrowserRouter>
+    
   
   
 }

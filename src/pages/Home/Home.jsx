@@ -16,6 +16,17 @@ const Home = () => {
 
         <div className="HOME">
             <Header />
+            <FeaturedCategories />
+
+
+
+
+
+
+
+
+
+
             <div className="StartHome">
                 <div className="Firsthalf">
                     <div className="text">
@@ -154,7 +165,7 @@ const Home = () => {
 
             </div>
 {/* ---------------------------------------------------------------------------------------------------------------- */}
-                <FeaturedCategories />
+                {/* <FeaturedCategories /> */}
                 
                 
                 
