@@ -3,6 +3,8 @@ import '../../styles/styles';
 import Header from './../../component/header/header';
 import Advertising from './../../component/Advertising/Advertising';
 import EndHome from '../../component/End Home/End Home';
+import FeaturedCategories from './featured categories';
+import NavigationArrows from './Navigation Arrows';
 
 
 const Home = () => {
@@ -24,9 +26,6 @@ const Home = () => {
                             your interior while also <br />being cost effective and long lasting.</p>
                     </div>
                     <div className="buttons">
-                        {/* 2 line is coment */}
-                        {/* <i className="fa-solid fa-arrow-right-long"></i> */}
-                        {/* <input type="button" value=" Shop Now ->" />  */}
                         <button className="input tast">
                             {/* onMouseEnter={() => console.log("1")}  */}
                             <span>Shop Now</span> <i className="fa-solid fa-arrow-right-long"></i></button>
@@ -80,9 +79,12 @@ const Home = () => {
                         </div>
 
                     </div>
+                    {/* <NavigationArrows/> */}
                     <div className="icon">
-                        <button> <i className="fa-solid fa-arrow-left-long"></i></button>
-                        <button> <i className="fa-solid fa-arrow-right-long"></i></button>
+                    <NavigationArrows/>
+
+                        {/* <button> <i className="fa-solid fa-arrow-left-long"></i></button>
+                        <button> <i className="fa-solid fa-arrow-right-long"></i></button> */}
                     </div>
 
                 </div>
@@ -151,9 +153,13 @@ const Home = () => {
                 </div>
 
             </div>
-
-
-            <EndHome />
+{/* ---------------------------------------------------------------------------------------------------------------- */}
+                <FeaturedCategories />
+                
+                
+                
+                
+                            <EndHome />
 
         </div>
     );

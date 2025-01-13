@@ -115,6 +115,12 @@ body {
 .Secondhalf {
     /* background-color: blue; */
     width: 50%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 5vh;
+    align-items: start;
 }
 
 .rooms {
@@ -204,8 +210,12 @@ body {
     height: 500px;
     transform: rotate(-90deg);
 }
+.Secondhalf .icon {
+    justify-self: end;
+    
+}
 
-.Secondhalf .icon button {
+/* .Secondhalf .icon button {
     width: fit-content;
     padding: 5px 20px;
     color: white;
@@ -217,7 +227,7 @@ body {
 
 .Secondhalf .icon button:hover {
     background-color: #f3af30;
-}
+} */
 
 /* ------------------------------------------------------------- */
 /* items_show */
