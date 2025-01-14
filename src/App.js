@@ -13,6 +13,7 @@ import AboutUs from './pages/About Us/AboutUs';
 import Contact from './pages/contact us/Contact';
 import Blog from './pages/Blog/Blog';
 import FeaturedCategories from './pages/Home/featured categories';
+
 // import 'src/styles/Scrollbar.css'
 const router=createBrowserRouter(
   createRoutesFromElements(
