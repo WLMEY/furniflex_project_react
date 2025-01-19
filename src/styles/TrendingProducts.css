@@ -12,6 +12,27 @@ padding-left: 10vw;
 gap: 3vh;
 
 }
+.TrendingProducts .titel{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 5vw;
+}
+.TrendingProducts .titel span{
+    font-size: var(--text_pc_header);
+}
+.TrendingProducts .titel button{
+    padding: 2.5vb;
+    font-size: var( --text_pc_btn);
+    border-radius: 50px;
+    border: none;
+    background-color: var(--btn);
+    color: var(--text_bg);
+    text-transform: capitalize;
+}
+
+
 .TrendingProducts nav {
     width: 50%;
     height: fit-content;
@@ -26,9 +47,46 @@ gap: 3vh;
     justify-content: space-between;
     align-items: center;
 }
+
 .TrendingProducts nav ul li {
     list-style: none;
+    font-size: var(--text_pc_sup_header);
+    text-transform: capitalize;
+    cursor: pointer;
+    position: relative;
 }
+.TrendingProducts nav ul li a {
+    text-decoration: none;
+    color: var( --text_sup);
+
+}
+.TrendingProducts nav ul li a:hover{
+    color: var(--color_main);
+
+}
+.TrendingProducts nav ul li a:hover::after{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    right:0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--color_main);
+
+}
+.active_on{
+    position: absolute;
+    bottom: -5px;
+    right:0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--color_main);
+    color: var(--color_main) ;
+}
+
+
+
+
 .TrendingProducts .products {
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -42,7 +100,7 @@ gap: 3vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 40px;
+    padding: 2vb;
     width:calc((100%/3)-20px);
     aspect-ratio: 1 / 1;
     border: 1px solid black;
@@ -53,6 +111,16 @@ gap: 3vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+.desconun_like span{
+    padding: 1.5vb;
+    background-color: var(--color_main_hover);
+    border-radius: 50px;
+}
+.desconun_like i{
+    padding: 1.5vb;
+    background-color: white;
+    color: var(--text_main);
 }
 .deitils_shop .deitiles{
     display: flex;

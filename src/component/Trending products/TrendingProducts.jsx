@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
  
 const TrendingProducts = () => {
     return ( 
@@ -6,17 +7,18 @@ const TrendingProducts = () => {
 
         <div className="titel">
             <span>trending products for you!</span>
-            <button>view all product </button>
+            <button>view all product <i className="fa-solid fa-arrow-right-long"></i></button>
             {/* arrow icon */}
-            <i className="fa-solid fa-arrow-right-long"></i>
+            
         </div>
 <nav>
     <ul>
-        <li><link rel="stylesheet" href="#" />bed room</li>
-        <li><link rel="stylesheet" href="#" />livint room</li>
-        <li><link rel="stylesheet" href="#" />dining room</li>
-        <li><link rel="stylesheet" href="#" />outdoor</li>
-        <li><link rel="stylesheet" href="#" />indoor</li>
+        
+        <li ><NavLink  className={({isActive})=>(isActive?"active_on":"none")} to="stylesheet" href="#" >bed room</NavLink></li>
+        <li><NavLink  className={({isActive})=>(isActive?"active_on":"none")} to="stylesheet" href="#" >room</NavLink> </li>
+        <li><NavLink  className={({isActive})=>(isActive?"active_on":"none")} to="stylesheet" href="#" >dining room</NavLink></li>
+        <li><NavLink  className={({isActive})=>(isActive?"active_on":"none")} to="stylesheet" href="#" >outdoor</NavLink></li>
+        <li><NavLink  className={({isActive})=>(isActive?"active_on":"none")} to="stylesheet" href="#" >indoor</NavLink></li>
 
     </ul>
 </nav>
@@ -30,7 +32,12 @@ const TrendingProducts = () => {
             {/* <i className="fa-regular fa-heart"></i> */}
             
             {/* change the heard from regular to  soide if clicked */}
-            <i className="fa-regular fa-heart"  onClick={()=>{}}></i>
+            <i onClick={()=>{
+                className:""
+
+            }}></i>
+  
+            <i className={({isActive})=>(isActive?"fa-solid fa-heart":"fa-regular fa-heart")}></i>
         </div>
         <div className="deitils_shop">
             <div className="deitiles">
