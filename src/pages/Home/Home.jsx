@@ -9,6 +9,7 @@ import TrendingProducts from '../../component/Trending products/TrendingProducts
 import Subscribe from './subscribe';
 import ClientSay from './clients say';
 import FreeStuff from './free stuff';
+import FlashSale from './flash sall';
 
 
 const Home = () => {
@@ -25,6 +26,7 @@ const Home = () => {
             {/* <Subscribe/> */}
             {/* <ClientSay/> */}
             {/* <FreeStuff/> */}
+            <FlashSale/>
 
 
 

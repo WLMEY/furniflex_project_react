@@ -16,5 +16,5 @@ import './Scrollbar.css';
 import './TrendingProducts.css';
 import './Subscribe.css';
 import './clientsay.css';
-import './FreeStuff.css'
-
+import './FreeStuff.css';
+import './flashSale.css';
