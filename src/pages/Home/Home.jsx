@@ -6,6 +6,8 @@ import EndHome from '../../component/End Home/End Home';
 import FeaturedCategories from './featured categories';
 import NavigationArrows from './Navigation Arrows';
 import TrendingProducts from '../../component/Trending products/TrendingProducts';
+import Subscribe from './subscribe';
+import ClientSay from './clients say';
 
 
 const Home = () => {
@@ -18,7 +20,9 @@ const Home = () => {
         <div className="HOME">
             <Header />
             {/* <FeaturedCategories /> */}
-            <TrendingProducts/>
+            {/* <TrendingProducts/> */}
+            {/* <Subscribe/> */}
+            <ClientSay/>
 
 
 
@@ -169,11 +173,18 @@ const Home = () => {
 {/* ---------------------------------------------------------------------------------------------------------------- */}
                 <FeaturedCategories />
                 
-                {/* <TrendingProducts/> */}
+                <TrendingProducts/>
                 
                 
                 
-                
+
+
+
+
+
+
+
+                <Subscribe/>
                             <EndHome />
 
         </div>

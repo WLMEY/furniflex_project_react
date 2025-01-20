@@ -16,10 +16,12 @@
     --text_pc_sup_header:1.5rem;
     --text_pc_items: 1.125rem;/* 18px */
     --text_pc_btn: 1.25rem;/* 20px */
+    --text_pc_Paragraph:1rem;
 
     --text_m_header: 1.5rem;/* 24px */
     --text_m_items: 1rem;/* 16px */
     --text_m_btn: 1rem;/* 16px */
+    --text_m_Paragraph:0.75rem;
 }
 
 html {

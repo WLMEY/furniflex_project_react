@@ -18,18 +18,24 @@ gap: 3vh;
     flex-direction: row;
     justify-content: space-between;
     padding-right: 5vw;
+    
 }
 .TrendingProducts .titel span{
+    text-transform: capitalize;
     font-size: var(--text_pc_header);
+    /* font-size: 3.5rem; */
 }
-.TrendingProducts .titel button{
-    padding: 2.5vb;
+.TrendingProducts .titel .btn{
+    width: fit-content;
+    height: fit-content;
+    padding: 2vh 2.5vw;
     font-size: var( --text_pc_btn);
     border-radius: 50px;
     border: none;
     background-color: var(--btn);
     color: var(--text_bg);
     text-transform: capitalize;
+    align-self: center;
 }
 
 
@@ -100,10 +106,11 @@ gap: 3vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 2vb;
+    /* padding: 2vb; */
     width:calc((100%/3)-20px);
     aspect-ratio: 1 / 1;
     border: 1px solid black;
+    border: none;
     border-radius: 20px;
     background-color: var(--color_bg);
 }
@@ -111,6 +118,7 @@ gap: 3vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 2vb;
 }
 .desconun_like span{
     padding: 1.5vb;
@@ -121,11 +129,37 @@ gap: 3vh;
     padding: 1.5vb;
     background-color: white;
     color: var(--text_main);
+    border-radius: 50%;
+}
+.SColor{
+    color: red;
+}
+.deitils_shop{
+    background-color: var(--color_main);
+    color: white;
+    border-radius:20px;
+
 }
 .deitils_shop .deitiles{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    font-size: var(--text_pc_sup_header);
+    text-transform: capitalize;
+}
+
+.fa-cart-shopping{
+    color: orange;
+    background-color: white;
+    border-radius: 50%;
+    padding: 2vb;
+    font-size: var(--text_pc_items);
+    border: none;
+    
+}
+.fa-cart-shopping:hover{
+    transform: scale(1.1);
+    transition:0.1s all ease;
 }
 .shopIcon{
     justify-self: center;

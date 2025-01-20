@@ -1,13 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
  
 const TrendingProducts = () => {
+
+
+    const [solid,setsolid]=useState(false);
+    const change=()=>{setsolid(!solid)}
     return ( 
 <div className="TrendingProducts">
 
         <div className="titel">
-            <span>trending products for you!</span>
-            <button>view all product <i className="fa-solid fa-arrow-right-long"></i></button>
+            <span>trending products <br /> for you!</span>
+            <button className='btn'>view all product <i className="fa-solid fa-arrow-right-long"></i></button>
             {/* arrow icon */}
             
         </div>
@@ -32,12 +36,10 @@ const TrendingProducts = () => {
             {/* <i className="fa-regular fa-heart"></i> */}
             
             {/* change the heard from regular to  soide if clicked */}
-            <i onClick={()=>{
-                className:""
 
-            }}></i>
-  
-            <i className={({isActive})=>(isActive?"fa-solid fa-heart":"fa-regular fa-heart")}></i>
+            <i className={`fa-${solid?"solid SColor":"regular"} fa-heart`}onClick={change} ></i>
+
+            {/* <i className={({isActive})=>(isActive?"fa-solid fa-heart":"fa-regular fa-heart")}></i> */}
         </div>
         <div className="deitils_shop">
             <div className="deitiles">
@@ -55,7 +57,7 @@ const TrendingProducts = () => {
             <span>-20%</span>
             {/* hard icon */}
             {/* <i className="fa-solid fa-heart"></i> */}
-            <i className="fa-regular fa-heart"></i>
+            <i className={`fa-${solid?"solid":"regular"} fa-heart`}onClick={change} ></i>
         </div>
         <div className="deitils_shop">
             <div className="deitiles">
@@ -73,7 +75,7 @@ const TrendingProducts = () => {
             <span>-20%</span>
             {/* hard icon */}
             {/* <i className="fa-solid fa-heart"></i> */}
-            <i className="fa-regular fa-heart"></i>
+            <i className={`fa-${solid?"solid":"regular"} fa-heart`}onClick={change} ></i>
         </div>
         <div className="deitils_shop">
             <div className="deitiles">
@@ -91,7 +93,7 @@ const TrendingProducts = () => {
             <span>-20%</span>
             {/* hard icon */}
             {/* <i className="fa-solid fa-heart"></i> */}
-            <i className="fa-regular fa-heart"></i>
+            <i className={`fa-${solid?"solid":"regular"} fa-heart`}onClick={change} ></i>
         </div>
         <div className="deitils_shop">
             <div className="deitiles">
@@ -109,7 +111,7 @@ const TrendingProducts = () => {
             <span>-20%</span>
             {/* hard icon */}
             {/* <i className="fa-solid fa-heart"></i> */}
-            <i className="fa-regular fa-heart"></i>
+            <i className={`fa-${solid?"solid":"regular"} fa-heart`}onClick={change} ></i>
         </div>
         <div className="deitils_shop">
             <div className="deitiles">
@@ -127,7 +129,7 @@ const TrendingProducts = () => {
             <span>-20%</span>
             {/* hard icon */}
             {/* <i className="fa-solid fa-heart"></i> */}
-            <i className="fa-regular fa-heart"></i>
+            <i className={`fa-${solid?"solid":"regular"} fa-heart`}onClick={change} ></i>
         </div>
         <div className="deitils_shop">
             <div className="deitiles">
