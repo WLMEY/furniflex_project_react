@@ -147,7 +147,7 @@ font-size: 30px;
 
     display: grid;
     grid-template-columns:2fr 1fr;
-    grid-template-rows: repeat(6,30px);
+    grid-template-rows: repeat(6,40px);
     padding: 2vh 2vw;
 } 
 
@@ -163,11 +163,14 @@ color: var(--text_bg);
 background-color: var(--btn);
 /* width: 90%; */
 height: 50%;
+
 margin: auto 0;
 padding: 1.2vh 3vw;
+
 border-radius: 15px;
 border: none;
 justify-self: center;
+align-self: center;
 
 }
 .btn_chekout:hover{

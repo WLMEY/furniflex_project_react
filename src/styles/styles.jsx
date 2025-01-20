@@ -14,5 +14,7 @@ import './FeaturedCategories.css';
 import './size_color.css';
 import './Scrollbar.css';
 import './TrendingProducts.css';
-import './Subscribe.css'
-import './clientsay.css'
+import './Subscribe.css';
+import './clientsay.css';
+import './FreeStuff.css'
+

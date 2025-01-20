@@ -1,3 +1,88 @@
+.clientsay {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2vh 10vw;
+    gap: 5vh;
+
+}
+
+.fristcontiner {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fristcontiner span {
+    font-size: var(--text_pc_header);
+    text-transform: capitalize;
+}
 
 
+.secandcontiner {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 70vh;
+    gap: 2vw;
 
+
+}
+
+.secandcontiner .showComent {
+    background-color: var(--color_main);
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+}
+
+.secandcontiner .showComent .imag {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    border: 1px solid black;
+    padding: 3vh 3vw;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+}
+.secandcontiner .comm_ditiles{
+display: flex;
+flex-direction: column;
+gap: 3vh;
+color: var(--color_bg_btn);
+
+}
+.secandcontiner .comm_ditiles .commant{
+    padding: 1vb;
+    line-height: 1.5;
+    font-size: var(--text_pc_Paragraph);
+
+}
+
+
+.secandcontiner .client {
+    background-color: var(--color_bg);
+    border-radius: 20px;
+    padding: 1vb;
+    overflow: hidden;
+    /* height: 70%; */
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secandcontiner .client img {
+
+    background-color: red;
+}

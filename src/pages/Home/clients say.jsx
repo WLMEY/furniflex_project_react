@@ -14,22 +14,26 @@ const ClientSay = () => {
             <div className="secandcontiner">
                 <div className="showComent">
                     <div className="imag">
-                        <img src="" alt="" />
-
+                        <img src="../../../Materials/man/man3.jpg" alt="" />
                     </div>
                     <div className="comm_ditiles">
                         <div className="commant">
-                            <p></p>
+                            <p>I recently purchased a beautiful dining set from
+                                FurniFlex, and I couldn't be happier! The quality is
+                                top-notch, and it looks even better in person than
+                                it did online. Plus, the customer service team was
+                                incredibly helpful throughout the entire process.
+                                Highly recommend</p>
                         </div>
                         <hr />
                         <div className="clientDitils">
-                            <span>name</span>
-                            <p>locitoin</p>
+                            <span>Mohammed hussein kamel</span>
+                            <p>Egypt</p>
                         </div>
                     </div>
                 </div>
                 <div className="client">
-                    <img src="" alt="" />
+                    <img src="../../../Materials/man/man3.jpg" alt="" />
                 </div>
             </div>
         </div>

@@ -9,7 +9,7 @@ const ShoppingCart = () => {
     return (
 
  
-
+ 
         <div className="cart">
             <div className="product_price">
                 <div className="container header_container">
