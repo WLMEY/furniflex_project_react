@@ -119,9 +119,28 @@
     font-size: var(--text_pc_Paragraph);
 
 }
-.fs1 .image {
+.fs1 .image1 {
     grid-column: 1/4;
     grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3vb;
+}
+.fs1 .image1 .img{
+    width: 20vb;
+    aspect-ratio:1/1;  /* الطول نفسه العرض ده معنا الكود ده */
+    border: none;
+}
+.fs1 .image1 .span1 span{
+    font-size: var(--text_pc_sup_header);
+}
+.fs1 .image1 .span1 .span2{
+    font-size: var(--text_pc_Paragraph);
+    color: var(--text_main);
+    margin-left: 10px;
+
 }
 .fs1 .ditilesitem {
     grid-column: 5/9;

@@ -22,9 +22,13 @@ const FlashSale = () => {
                         <div className="box">57 S</div>
                     </div>
                 </div>
-                <div className="image">
+                <div className="image1">
                     <img src="" alt="" />
-                    <span>$599</span><span><del>$799</del></span>
+                    <div className="span1">
+                    <span>$599</span>
+                    <span className='span2'><del>$799</del></span>
+                
+                    </div>
                 </div>
                 <div className="ditilesitem">
                         <h2>vintage leather armchai</h2>
