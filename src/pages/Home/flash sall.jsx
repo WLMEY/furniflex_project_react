@@ -11,7 +11,16 @@ const FlashSale = () => {
                     </p>
                 </div>
                 <div className="endtime">
-                    12h:36m:57s
+                    <div className="texttime">
+                    <i class="fa-regular fa-clock"></i>
+                    <span> End time</span>
+                    </div>
+
+                    <div className="times">
+                        <div className="box">12 H</div>
+                        <div className="box">36 M</div>
+                        <div className="box">57 S</div>
+                    </div>
                 </div>
                 <div className="image">
                     <img src="" alt="" />

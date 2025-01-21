@@ -40,6 +40,7 @@
     display:grid;
     grid-template-columns:repeat(8,1fr);
     grid-template-rows:repeat(2, 1fr);
+    padding: 5vb;
 }
 
 .fs2 {
@@ -69,11 +70,53 @@
 .fs1 .title {
     grid-column: 1/6;
     grid-row: 1/2;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
+    font-size: var(--text_pc_Paragraph);
+    color: var(--text_sup);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    height: 100%;
+    padding: 5vb;
+
+    /* background-color: green; */
+
+}
+.fs1 .title h2 {
+    font-size: var(--text_pc_header);
+    color: black;
+    text-transform: capitalize;
+
 }
 .fs1 .endtime {
-    grid-column: 7/9;
+    grid-column: 6/9;
     grid-row: 1/2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* background-color: red; */
+
+}
+.texttime{
+    color: var(--color_main);
+    font-size: var(--text_pc_Paragraph);
+}
+.times{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+.box{
+    width: fit-content;
+    background-color: white;
+    padding: 1vb;
+    border-radius: 5px;
+    font-size: var(--text_pc_Paragraph);
 
 }
 .fs1 .image {
