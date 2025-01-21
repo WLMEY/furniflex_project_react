@@ -26,7 +26,7 @@ const Home = () => {
             {/* <Subscribe/> */}
             {/* <ClientSay/> */}
             {/* <FreeStuff/> */}
-            <FlashSale/>
+            {/* <FlashSale/> */}
 
 
 
@@ -178,17 +178,13 @@ const Home = () => {
                 <FeaturedCategories />
                 
                 <TrendingProducts/>
-                
-                
-                
-
-
+                <FlashSale/>
                 <FreeStuff/>
-
-
-
-
                 <ClientSay/>
+
+
+
+                
                 <Subscribe/>
                             <EndHome />
 

@@ -23,7 +23,7 @@ const FlashSale = () => {
                     </div>
                 </div>
                 <div className="image1">
-                    <img src="" alt="" />
+                    <img src="../../../Materials/sofa/4.png" alt="" />
                     <div className="span1">
                     <span>$599</span>
                     <span className='span2'><del>$799</del></span>
@@ -36,8 +36,7 @@ const FlashSale = () => {
                          with this vintage learher armchair. sturdy <br />
                         constrcuction ensures durability
                         </p>
-                        <button className="btn"> Shop Now<i class="fa-solid fa-arrow-right-long  "></i>
-                        </button>
+                        <button className="btn"> Shop Now<i class="fa-solid fa-arrow-right-long  "></i></button>
                 </div>
             </div>
             <div className="fs2">
