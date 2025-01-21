@@ -10,6 +10,7 @@ import Subscribe from './subscribe';
 import ClientSay from './clients say';
 import FreeStuff from './free stuff';
 import FlashSale from './flash sall';
+import Explore from './Explore';
 
 
 const Home = () => {
@@ -27,6 +28,7 @@ const Home = () => {
             {/* <ClientSay/> */}
             {/* <FreeStuff/> */}
             {/* <FlashSale/> */}
+            {/* <Explore/> */}
 
 
 
@@ -181,10 +183,13 @@ const Home = () => {
                 <FlashSale/>
                 <FreeStuff/>
                 <ClientSay/>
+                <Explore/>
 
 
 
-                
+
+
+
                 <Subscribe/>
                             <EndHome />
 

@@ -18,3 +18,4 @@ import './Subscribe.css';
 import './clientsay.css';
 import './FreeStuff.css';
 import './flashSale.css';
+import './Explore.css';
