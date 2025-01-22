@@ -1,5 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 const Questions = () => {
+    const [showAnswer,setshowAnswer]=useState(false);
+    const handclicke=()=>{
+        setshowAnswer(!showAnswer)
+    }
     return (
 
         <div className="questions">
@@ -9,18 +13,19 @@ const Questions = () => {
                 </span>
             </div>
             <div className="continer_questions">
-                <div className="question "> {/* show */}
+                <div className={showAnswer?"question":"show"}> {/*question  show */}
                     <div className="question_c">
                         <span className='que'>How do i chosse the right furniture for my space?</span>
-                        <i class=" fa-solid fa-arrow-right-long" />
-                        {/* <i class=" fa-solid fa-xmark" /> */}
+                        <i onClick={handclicke} class={showAnswer?"fa-solid fa-arrow-right-long":"fa-solid fa-xmark"}/>
+                        {/* <i class=" fa-solid fa-xmark" /> 
+                        " fa-solid fa-arrow-right-long" */}
 
                     </div>
-                    <span className='ans'>
-                        Lorem ipsum dolor sit amet consectetur,
-                        adipisicing elit. Dolorum in id sit,
-                        error veritatis soluta labore. Asperiores,
-                        quibusdam corrupti? Sapiente!
+                    <span className={showAnswer?"ansoff":"anson"}>
+                        Lorem ipsum dolor sit amet consectetur,<br />
+                        adipisicing elit. Dolorum in id sit, Dolorum in id sit,
+                        error veritatis soluta labore. Asperiores,<br />
+                        quibusdam corrupti? Sapiente! Dolorum in id sit, Dolorum in id sit, Dolorum in id sit, Dolorum in id sit,
                     </span>
 
                 </div>

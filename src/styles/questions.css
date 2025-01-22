@@ -23,7 +23,9 @@ text-transform: capitalize;
  justify-content: center;
  align-items: start;
  padding: 3vb;
- gap: 3vh;
+ gap: 3vh; 
+    transition: all ease 0.5s;
+
  
 }
 .continer_questions .show{
@@ -36,6 +38,7 @@ text-transform: capitalize;
     align-items: start;
     padding: 3vb;
     gap: 3vh;
+    transition: all ease 0.5s;
 }
 
 .question_c{
@@ -45,6 +48,10 @@ text-transform: capitalize;
     justify-content: space-between;
     align-items: center;
 }
+.question_c span{
+    font-size: var(--text_pc_items2);
+}
+
 .question_c i{
     color: var(--color_main);
     background-color: white;
@@ -59,15 +66,18 @@ text-transform: capitalize;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 }
 .que{
 
 }
-.ans{
-    display: none;
+.anson{
+    display: block;
+    transition: all ease 0.5s;
+
 }
-.xmark{
+.ansoff{
     display: none;
+    transition: all ease 0.5s;
 
 }
