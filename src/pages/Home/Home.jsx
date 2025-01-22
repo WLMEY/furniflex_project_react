@@ -30,7 +30,7 @@ const Home = () => {
             {/* <FreeStuff/> */}
             {/* <FlashSale/> */}
             {/* <Explore/> */}
-            <Questions/>
+            {/* <Questions/> */}
 
 
 
@@ -186,6 +186,8 @@ const Home = () => {
                 <FreeStuff/>
                 <ClientSay/>
                 <Explore/>
+                <Questions/>
+
 
 
 

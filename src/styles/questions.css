@@ -3,6 +3,9 @@
 width: 100%;
 height: fit-content;
 padding: 5vh 10vw;
+display: flex;
+flex-direction: column;
+gap: 7vh;
 }
 .questions .head{
 font-size: var(--text_pc_header);
@@ -13,6 +16,11 @@ text-transform: capitalize;
 
 }
 .continer_questions{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-content: center;
+gap: 3vh;
 
 }
 .continer_questions .question{
