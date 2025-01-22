@@ -11,6 +11,7 @@ import ClientSay from './clients say';
 import FreeStuff from './free stuff';
 import FlashSale from './flash sall';
 import Explore from './Explore';
+import Questions from './questions';
 
 
 const Home = () => {
@@ -29,6 +30,7 @@ const Home = () => {
             {/* <FreeStuff/> */}
             {/* <FlashSale/> */}
             {/* <Explore/> */}
+            <Questions/>
 
 
 
