@@ -3,8 +3,10 @@ import Header from '../../component/header/header';
 import EndHome from './../../component/End Home/End Home';
 import Advertising from './../../component/Advertising/Advertising';
 import StarterBage from './../../component/starterbage/Starter bage ';
-import '../../../src/assets/data/product list.json';
-import '../../styles/styles'
+import '../../assets/data/product list';
+import '../../styles/styles';
+import productlist from '../../assets/data/product list';
+import productlist from './../../assets/data/product list';
  const Products = () => {
    
     
@@ -13,6 +15,7 @@ import '../../styles/styles'
         <Header />
         <StarterBage title="Products"/>
 
+        <productlist className="map"></productlist>
 
         <div className="showproducts">
 

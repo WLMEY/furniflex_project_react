@@ -1,4 +1,5 @@
-[
+ 
+const productlist=[
     {
         "id": 1,
         "name": "Modern Barrel Chair",
@@ -132,3 +133,4 @@
         "incart": false
     }
 ]
+export default productlist;
