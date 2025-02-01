@@ -1,7 +1,8 @@
 import React from 'react';
 import '../../styles/styles'
-const StarterBage = () => {
-    const mainText="Shopping Cart"
+const StarterBage = (props) => {
+    const mainText=props.title;
+    // Shopping Cart
     return ( 
 
  

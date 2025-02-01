@@ -1,11 +1,17 @@
 import React from 'react';
 import Header from '../../component/header/header';
+import StarterBage from '../../component/starterbage/Starter bage ';
+import EndHome from '../../component/End Home/End Home';
+import Advertising from '../../component/Advertising/Advertising';
 const Blog = () => {
     return ( 
-        <>
-        <Header/>
-        <h3>Blog</h3>
-        </>
+        <div className='Blog'>
+            <Header/>
+            <StarterBage title="our blog"/>
+
+            <Advertising/>
+            <EndHome/>
+        </div>
      );
 }
  

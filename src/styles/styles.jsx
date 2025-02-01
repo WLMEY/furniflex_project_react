@@ -19,4 +19,5 @@ import './clientsay.css';
 import './FreeStuff.css';
 import './flashSale.css';
 import './Explore.css';
-import './questions.css'
+import './questions.css';
+import './products.css';

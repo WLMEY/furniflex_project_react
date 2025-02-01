@@ -15,8 +15,8 @@ const ShoppingCartMain = () => {
     return ( 
         <div className='ShoppingCartMain'>
             <Header/>
-            <StarterBage/>
-            <ShoppingCart/>
+            <StarterBage title="Shopping Cart"/>
+            <ShoppingCart />
             <Advertising/>
             <EndHome/>
         </div>
