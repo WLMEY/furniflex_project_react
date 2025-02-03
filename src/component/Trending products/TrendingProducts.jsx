@@ -14,7 +14,7 @@ const TrendingProducts = () => {
             <button className='btn'>view all product <i className="fa-solid fa-arrow-right-long"></i></button>
             {/* arrow icon */}
             
-        </div>
+        </div> 
 <nav>
     <ul>
         
@@ -48,7 +48,7 @@ const TrendingProducts = () => {
             </div>
             <div className="shopIcon">
                 {/* shop icon */}
-                <i className="fa-solid fa-cart-shopping"></i>
+                <i className="fa-solid fa-cart-shopping shop_T"></i>
             </div>
         </div>
     </div>
@@ -66,7 +66,7 @@ const TrendingProducts = () => {
             </div>
             <div className="shopIcon">
                 {/* shop icon */}
-                <i className="fa-solid fa-cart-shopping"></i>
+                <i className="fa-solid fa-cart-shopping shop_T"></i>
             </div>
         </div>
     </div>
@@ -84,7 +84,7 @@ const TrendingProducts = () => {
             </div>
             <div className="shopIcon">
                 {/* shop icon */}
-                <i className="fa-solid fa-cart-shopping"></i>
+                <i className="fa-solid fa-cart-shopping shop_T"></i>
             </div>
         </div>
     </div>
@@ -102,7 +102,7 @@ const TrendingProducts = () => {
             </div>
             <div className="shopIcon">
                 {/* shop icon */}
-                <i className="fa-solid fa-cart-shopping"></i>
+                <i className="fa-solid fa-cart-shopping shop_T"></i>
             </div>
         </div>
     </div>
@@ -120,7 +120,7 @@ const TrendingProducts = () => {
             </div>
             <div className="shopIcon">
                 {/* shop icon */}
-                <i className="fa-solid fa-cart-shopping"></i>
+                <i className="fa-solid fa-cart-shopping shop_T"></i>
             </div>
         </div>
     </div>
@@ -138,7 +138,7 @@ const TrendingProducts = () => {
             </div>
             <div className="shopIcon">
                 {/* shop icon */}
-                <i className="fa-solid fa-cart-shopping"></i>
+                <i className="fa-solid fa-cart-shopping shop_T"></i>
             </div>
         </div>
     </div>

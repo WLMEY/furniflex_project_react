@@ -148,7 +148,7 @@ gap: 3vh;
     text-transform: capitalize;
 }
 
-.fa-cart-shopping{
+.shopIcon .shop_T{
     color: orange;
     background-color: white;
     border-radius: 50%;
@@ -157,7 +157,7 @@ gap: 3vh;
     border: none;
     
 }
-.fa-cart-shopping:hover{
+.shopIcon .shop_T:hover{
     transform: scale(1.1);
     transition:0.1s all ease;
 }
