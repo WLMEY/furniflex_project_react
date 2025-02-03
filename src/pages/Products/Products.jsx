@@ -19,7 +19,7 @@ import productlist from './../../assets/data/product list';
 
         <div className="showproducts">
 
-        </div>
+        </div> 
         
 
 
