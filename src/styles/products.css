@@ -70,6 +70,11 @@ cursor: pointer;
     /* background-color: gray; */
     width: 300px;
     height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:stretch;
+    gap: 2vh;
 }
 .products_show{
     display: grid;
@@ -97,6 +102,7 @@ cursor: pointer;
     right: 0.5vw;
     color: red;
     cursor: pointer;
+
 
 
 

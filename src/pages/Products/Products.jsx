@@ -14,8 +14,14 @@ const Products = () => {
 
     const [favorite, setFavorite] = useState(null);
     const clicked = (id) => {
+        // console.log(id)
+        data.map((item) => {
+            if (id === item.id) {
+                item.favorite = !item.favorite;
+            }
+        })
         setFavorite(prevfavorite => (prevfavorite === id ? !favorite : id));
-        // setFavorite(!favorite)
+
 
     }
 
@@ -57,6 +63,55 @@ const Products = () => {
 
 
                 <div className="filters">
+                    <h1>Filter Option</h1>
+                    <div className="category">
+                        <h2>category</h2>
+                        <ul>
+                            <li> <input type="radio" name='x' /> bedroom</li>
+                            <li><input type="radio" name='x'/> living room </li>
+                            <li><input type="radio" name='x'/> office</li>
+                            <li><input type="radio" name='x'/> kitchen</li>
+                            <li><input type="radio"name='x' /> outdoor</li>
+
+                        </ul>
+                    </div>
+                    <div className="price">
+                        <h2>prive</h2>
+                        <span>8880000</span>
+                        <input type="range" name="" id="" />
+                    </div>
+                    <div className="martial">
+                        <h2>martial</h2>
+                        ???????
+                    </div>
+                    <div className="color">
+                        <ul>
+                            <form action="">
+                                <input type="radio" name="x" id="x" value="" /> <label htmlFor=""> brown</label>
+                                <input type="radio" name="x" id="x" value="" /> <label htmlFor=""> orange</label>
+                                <input type="radio" name="x" id="x" value="" /> <label htmlFor=""> grey</label>
+                                <input type="radio" name="x" id="" value="" /> <label htmlFor=""> black</label>
+                                <input type="radio" name="x" id="" value="" /> <label htmlFor=""> blue</label>
+                                <input type="radio" name="x" id="" value="" /> <label htmlFor=""> white</label>
+                                <input type="radio" name="x" id="" value="" /> <label htmlFor=""> green</label>
+                                <input type="radio" name="x" id="" value="" /> <label htmlFor=""> red</label>
+                            </form>
+
+
+                        </ul>
+                    </div>
+                    <div className="availability">
+                        <h2>availability</h2>
+                        <ul>
+                            <li><input type="radio" name="z" id="" />in Stock</li>
+                            <li><input type="radio" name="z" id="" />Out fo stock</li>
+                        </ul>
+                    </div>
+
+
+
+
+
 
                 </div>
                 <div className="items">
