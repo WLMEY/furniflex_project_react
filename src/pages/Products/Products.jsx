@@ -12,16 +12,16 @@ import ClientSay from './../Home/clients say';
 const Products = () => {
 
 
-    const [favorite,setFavorite]=useState(null);
-    const clicked=(id)=>{
+    const [favorite, setFavorite] = useState(null);
+    const clicked = (id) => {
         setFavorite(prevfavorite => (prevfavorite === id ? !favorite : id));
         // setFavorite(!favorite)
-        
+
     }
 
 
-    const calcprice =(price , discount)=>{
-        var newprice=price-(price*(discount/100))
+    const calcprice = (price, discount) => {
+        var newprice = price - (price * (discount / 100))
         // newprice=Math.round(newprice)
         newprice = Number(newprice.toFixed(2))
         return newprice;
@@ -72,26 +72,26 @@ const Products = () => {
                     </div>
                     <div className="products_show">
                         {
-                            data.map((item)=>(
+                            data.map((item) => (
 
                                 <div key={item.id} className="product_show">
-                                <div className="image_show">
-                                    <img src={item.image} alt="" />
-                                    <span className={item.discount?"discount":"none"}>{item.discountvalue +"%"}</span>
-                                    {/* <i class="fa-solid fa-heart heart_p"></i> */}
-                                    <i key={item.id} class={item.favorite?"fa-solid fa-heart heart_s":"fa-regular fa-heart heart_r"} onClick={()=>(clicked(item.id))}></i>
+                                    <div className="image_show">
+                                        <img src={item.image} alt="" />
+                                        <span className={item.discount ? "discount" : "none"}>{item.discountvalue + "%"}</span>
+                                        {/* <i class="fa-solid fa-heart heart_p"></i> */}
+                                        <i key={item.id} class={item.favorite ? "fa-solid fa-heart heart_s" : "fa-regular fa-heart heart_r"} onClick={() => (clicked(item.id))}></i>
 
-                                </div>
-                                <div className="ditils_show">
-                                    <div className="text_show">
-                                        <h3 className='text1'>{item.name}</h3>
-                                        <span className='text1'>${calcprice(item.price,item.discountvalue)} </span>
-                                        <span className= {item.discount?"text2":"none"} ><del> ${item.price}</del></span>
                                     </div>
-                                    <i class="fa-solid fa-cart-shopping shop_p"></i>
-    
+                                    <div className="ditils_show">
+                                        <div className="text_show">
+                                            <h3 className='text1'>{item.name}</h3>
+                                            <span className='text1'>${calcprice(item.price, item.discountvalue)} </span>
+                                            <span className={item.discount ? "text2" : "none"} ><del> ${item.price}</del></span>
+                                        </div>
+                                        <i class="fa-solid fa-cart-shopping shop_p"></i>
+
+                                    </div>
                                 </div>
-                            </div>
                             ))
                         }
                     </div>
