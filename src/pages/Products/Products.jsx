@@ -95,7 +95,7 @@ const Products = () => {
                                 <input type="radio" name="x" id="" value="" /> <label htmlFor=""> white</label>
                                 <input type="radio" name="x" id="" value="" /> <label htmlFor=""> green</label>
                                 <input type="radio" name="x" id="" value="" /> <label htmlFor=""> red</label>
-                            </form>
+                            </form> 
 
 
                         </ul>
