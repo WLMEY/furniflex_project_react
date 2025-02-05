@@ -34,6 +34,24 @@ const Products = () => {
     }
 
 
+    function changechevron(){
+        const chevron=document.getElementById("chevron");
+        if (chevron.style.transform ==="rotate(180deg)"){
+            chevron.style.transform="rotate(0deg)";
+        }else{
+            chevron.style.transform="rotate(180deg)";
+
+        }
+
+    }
+
+    function showandhide(){
+        const filters=document.getElementById("filters");
+
+        [...filters.children].forEach(child => {
+            
+        });
+    }
 
 
 
@@ -62,29 +80,42 @@ const Products = () => {
 
 
 
-                <div className="filters">
-                    <h1>Filter Option</h1>
+                <div id='filters' className="filters">
+                    <span className='filterTitle'>Filter Option</span>
                     <div className="category">
-                        <h2>category</h2>
+                        <div className="title">
+                            <h2>category</h2>
+                            <i id='chevron' onClick={changechevron} class="fa-solid fa-chevron-up"></i>
+                        </div>
                         <ul>
                             <li> <input type="radio" name='x' /> bedroom</li>
-                            <li><input type="radio" name='x'/> living room </li>
-                            <li><input type="radio" name='x'/> office</li>
-                            <li><input type="radio" name='x'/> kitchen</li>
-                            <li><input type="radio"name='x' /> outdoor</li>
+                            <li><input type="radio" name='x' /> living room </li>
+                            <li><input type="radio" name='x' /> office</li>
+                            <li><input type="radio" name='x' /> kitchen</li>
+                            <li><input type="radio" name='x' /> outdoor</li>
 
                         </ul>
                     </div>
                     <div className="price">
-                        <h2>prive</h2>
+                        <div className="title">
+                            <h2>prive</h2>
+                            <i id='chevron' class="fa-solid fa-chevron-up"></i>
+                        </div>
                         <span>8880000</span>
                         <input type="range" name="" id="" />
                     </div>
                     <div className="martial">
-                        <h2>martial</h2>
-                        ???????
+                        <div className='title'>
+                            <h2>martial</h2>
+                            <i id='chevron' class="fa-solid fa-chevron-up"></i>
+                        </div>
+                        ????
                     </div>
                     <div className="color">
+                    <div className='title'>
+                            <h2>color</h2>
+                            <i id='chevron' class="fa-solid fa-chevron-up"></i>
+                        </div>
                         <ul>
                             <form action="">
                                 <input type="radio" name="x" id="x" value="" /> <label htmlFor=""> brown</label>
@@ -95,13 +126,16 @@ const Products = () => {
                                 <input type="radio" name="x" id="" value="" /> <label htmlFor=""> white</label>
                                 <input type="radio" name="x" id="" value="" /> <label htmlFor=""> green</label>
                                 <input type="radio" name="x" id="" value="" /> <label htmlFor=""> red</label>
-                            </form> 
+                            </form>
 
 
                         </ul>
                     </div>
                     <div className="availability">
+                        <div className='title'>
                         <h2>availability</h2>
+                            <i id='chevron' class="fa-solid fa-chevron-up"></i>
+                        </div>
                         <ul>
                             <li><input type="radio" name="z" id="" />in Stock</li>
                             <li><input type="radio" name="z" id="" />Out fo stock</li>
