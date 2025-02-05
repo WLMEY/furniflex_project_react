@@ -76,7 +76,7 @@ const Products = () => {
 
                     ))
                 }
-            </ul> */}
+             </ul> */}
 
 
 
@@ -217,22 +217,28 @@ const Products = () => {
                                 </div>
                             ))
                         }
+
                     </div>
                 </div>
 
 
-
-
-
-
-
-
-
-
-
-
             </div>
 
+
+            <div className="pages">
+                <button><i class="fa-solid fa-arrow-left-long"></i> Preview</button>
+                <div className="pageNumpers">
+                    <ul>
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>...</li>
+                        <li>14</li>
+                    </ul>
+                </div>
+                <button>Next <i class="fa-solid fa-arrow-right-long"></i></button>
+
+            </div>
 
             <Advertising />
             <EndHome />
