@@ -9,6 +9,7 @@ import '../../styles/styles';
 // import productlist from './../../assets/data/product list';
 import data from '../../assets/data/product list'
 import ClientSay from './../Home/clients say';
+import PriceRange from './price range';
 const Products = () => {
 
 
@@ -47,9 +48,8 @@ const Products = () => {
 
     function showandhide() {
         const filters = document.getElementById("filters");
-
         [...filters.children].forEach(child => {
-
+            console.log(child)
         });
     }
 
@@ -64,19 +64,6 @@ const Products = () => {
 
 
             <div className="showproducts">
-                {/* <ul>
-                {
-                    data.map((item)=>(
-                        <li>{item.name}
-                        <br />
-                            {item.price}
-                            <br />
-                            {item.describe}
-                            </li>
-
-                    ))
-                }
-             </ul> */}
 
 
 
@@ -85,7 +72,7 @@ const Products = () => {
                     <div className="category">
                         <div className="title">
                             <span className="classtitle">category</span>
-                            <i id='chevron' onClick={changechevron} class="fa-solid fa-chevron-up"></i>
+                            <i id='chevron' onClick={changechevron} className="fa-solid fa-chevron-up"></i>
                         </div>
                         <ul>
                             <li> <input type="radio" name='x' /> bedroom</li>
@@ -99,18 +86,18 @@ const Products = () => {
                     <div className="price">
                         <div className="title">
                             <span className="classtitle">prive</span>
-                            <i id='chevron' class="fa-solid fa-chevron-up"></i>
+                            <i id='chevron' className="fa-solid fa-chevron-up"></i>
                         </div>
                         <div className="price_value">
                             <span className='money'>10,000$-50,000$</span>
-                            <input type="range" name="" id="" />
+                            <PriceRange/>
                         </div>
 
                     </div>
                     <div className="martial">
                         <div className='title'>
                             <span className="classtitle">martial</span>
-                            <i id='chevron' class="fa-solid fa-chevron-up"></i>
+                            <i id='chevron' className="fa-solid fa-chevron-up"></i>
                         </div>
                         <ul className='ulMartial'>
                             <li>Glass</li>
@@ -125,42 +112,42 @@ const Products = () => {
                     <div className="color">
                         <div className='title'>
                             <span className="classtitle">color</span>
-                            <i id='chevron' class="fa-solid fa-chevron-up"></i>
+                            <i id='chevron' className="fa-solid fa-chevron-up"></i>
                         </div>
                         <ul>
 
 
                             <li>
                                 <input type="radio" name="x" id="brown" value="brown" />
-                                <label for="brown">Brown</label>
+                                <label htmlFor="brown">Brown</label>
                             </li>
                             <li>
                                 <input type="radio" name="x" id="orange" value="orange" />
-                                <label for="orange">Orange</label>
+                                <label htmlFor="orange">Orange</label>
                             </li>
                             <li>
                                 <input type="radio" name="x" id="grey" value="grey" />
-                                <label for="grey">Grey</label>
+                                <label htmlFor="grey">Grey</label>
                             </li>
                             <li>
                                 <input type="radio" name="x" id="black" value="black" />
-                                <label for="black">Black</label>
+                                <label htmlFor="black">Black</label>
                             </li>
                             <li>
                                 <input type="radio" name="x" id="blue" value="blue" />
-                                <label for="blue">Blue</label>
+                                <label htmlFor="blue">Blue</label>
                             </li>
                             <li>
                                 <input type="radio" name="x" id="white" value="white" />
-                                <label for="white">White</label>
+                                <label htmlFor="white">White</label>
                             </li>
                             <li>
                                 <input type="radio" name="x" id="green" value="green" />
-                                <label for="green">Green</label>
+                                <label htmlFor="green">Green</label>
                             </li>
                             <li>
                                 <input type="radio" name="x" id="red" value="red" />
-                                <label for="red">Red</label>
+                                <label htmlFor="red">Red</label>
                             </li>
 
                         </ul>
@@ -168,7 +155,7 @@ const Products = () => {
                     <div className="availability">
                         <div className='title'>
                             <span className="classtitle">availability</span>
-                            <i id='chevron' class="fa-solid fa-chevron-up"></i>
+                            <i id='chevron' className="fa-solid fa-chevron-up"></i>
                         </div>
                         <ul>
                             <li><input type="radio" name="z" id="" />in Stock</li>
@@ -189,8 +176,8 @@ const Products = () => {
                         </div>
                         <div className="short">
                             <span >Short by:</span>
-                            <span className='btn_list'>Default Sorting <i class="fa-solid fa-chevron-down"></i></span>
-                            <span className='btn_list'>Size <i class="fa-solid fa-chevron-down"></i></span>
+                            <span className='btn_list'>Default Sorting <i className="fa-solid fa-chevron-down"></i></span>
+                            <span className='btn_list'>Size <i className="fa-solid fa-chevron-down"></i></span>
                         </div>
                     </div>
                     <div className="products_show">
@@ -201,8 +188,8 @@ const Products = () => {
                                     <div className="image_show">
                                         <img src={item.image} alt="" />
                                         <span className={item.discount ? "discount" : "none"}>{item.discountvalue + "%"}</span>
-                                        {/* <i class="fa-solid fa-heart heart_p"></i> */}
-                                        <i key={item.id} class={item.favorite ? "fa-solid fa-heart heart_s" : "fa-regular fa-heart heart_r"} onClick={() => (clicked(item.id))}></i>
+                                        {/* <i className="fa-solid fa-heart heart_p"></i> */}
+                                        <i key={item.id} className={item.favorite ? "fa-solid fa-heart heart_s" : "fa-regular fa-heart heart_r"} onClick={() => (clicked(item.id))}></i>
 
                                     </div>
                                     <div className="ditils_show">
@@ -211,7 +198,7 @@ const Products = () => {
                                             <span className='text1'>${calcprice(item.price, item.discountvalue)} </span>
                                             <span className={item.discount ? "text2" : "none"} ><del> ${item.price}</del></span>
                                         </div>
-                                        <i class="fa-solid fa-cart-shopping shop_p"></i>
+                                        <i className="fa-solid fa-cart-shopping shop_p"></i>
 
                                     </div>
                                 </div>
@@ -226,7 +213,7 @@ const Products = () => {
 
 
             <div className="pages">
-                <button><i class="fa-solid fa-arrow-left-long"></i> Preview</button>
+                <button><i className="fa-solid fa-arrow-left-long"></i> Preview</button>
                 <div className="pageNumpers">
                     <ul>
                         <li>1</li>
@@ -236,7 +223,7 @@ const Products = () => {
                         <li>14</li>
                     </ul>
                 </div>
-                <button>Next <i class="fa-solid fa-arrow-right-long"></i></button>
+                <button>Next <i className="fa-solid fa-arrow-right-long"></i></button>
 
             </div>
 

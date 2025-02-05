@@ -294,3 +294,20 @@ color: var(--text_main2);
     align-items: center;
     font-size: var(--text_pc_btn);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1200px) {
+    .products_show{
+        grid-template-columns: 1fr 1fr;
+    }
+}
