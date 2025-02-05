@@ -34,22 +34,22 @@ const Products = () => {
     }
 
 
-    function changechevron(){
-        const chevron=document.getElementById("chevron");
-        if (chevron.style.transform ==="rotate(180deg)"){
-            chevron.style.transform="rotate(0deg)";
-        }else{
-            chevron.style.transform="rotate(180deg)";
+    function changechevron() {
+        const chevron = document.getElementById("chevron");
+        if (chevron.style.transform === "rotate(180deg)") {
+            chevron.style.transform = "rotate(0deg)";
+        } else {
+            chevron.style.transform = "rotate(180deg)";
 
         }
 
     }
 
-    function showandhide(){
-        const filters=document.getElementById("filters");
+    function showandhide() {
+        const filters = document.getElementById("filters");
 
         [...filters.children].forEach(child => {
-            
+
         });
     }
 
@@ -84,7 +84,7 @@ const Products = () => {
                     <span className='filterTitle'>Filter Option</span>
                     <div className="category">
                         <div className="title">
-                            <h2>category</h2>
+                            <span className="classtitle">category</span>
                             <i id='chevron' onClick={changechevron} class="fa-solid fa-chevron-up"></i>
                         </div>
                         <ul>
@@ -98,42 +98,76 @@ const Products = () => {
                     </div>
                     <div className="price">
                         <div className="title">
-                            <h2>prive</h2>
+                            <span className="classtitle">prive</span>
                             <i id='chevron' class="fa-solid fa-chevron-up"></i>
                         </div>
-                        <span>8880000</span>
-                        <input type="range" name="" id="" />
+                        <div className="price_value">
+                            <span className='money'>10,000$-50,000$</span>
+                            <input type="range" name="" id="" />
+                        </div>
+
                     </div>
                     <div className="martial">
                         <div className='title'>
-                            <h2>martial</h2>
+                            <span className="classtitle">martial</span>
                             <i id='chevron' class="fa-solid fa-chevron-up"></i>
                         </div>
-                        ????
+                        <ul className='ulMartial'>
+                            <li>Glass</li>
+                            <li>Wood</li>
+                            <li>Metal</li>
+                            <li>Plastic</li>
+                            <li>Stone</li>
+                            <li>Clay</li>
+                        </ul>
+
                     </div>
                     <div className="color">
-                    <div className='title'>
-                            <h2>color</h2>
+                        <div className='title'>
+                            <span className="classtitle">color</span>
                             <i id='chevron' class="fa-solid fa-chevron-up"></i>
                         </div>
                         <ul>
-                            <form action="">
-                                <input type="radio" name="x" id="x" value="" /> <label htmlFor=""> brown</label>
-                                <input type="radio" name="x" id="x" value="" /> <label htmlFor=""> orange</label>
-                                <input type="radio" name="x" id="x" value="" /> <label htmlFor=""> grey</label>
-                                <input type="radio" name="x" id="" value="" /> <label htmlFor=""> black</label>
-                                <input type="radio" name="x" id="" value="" /> <label htmlFor=""> blue</label>
-                                <input type="radio" name="x" id="" value="" /> <label htmlFor=""> white</label>
-                                <input type="radio" name="x" id="" value="" /> <label htmlFor=""> green</label>
-                                <input type="radio" name="x" id="" value="" /> <label htmlFor=""> red</label>
-                            </form>
 
+
+                            <li>
+                                <input type="radio" name="x" id="brown" value="brown" />
+                                <label for="brown">Brown</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="x" id="orange" value="orange" />
+                                <label for="orange">Orange</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="x" id="grey" value="grey" />
+                                <label for="grey">Grey</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="x" id="black" value="black" />
+                                <label for="black">Black</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="x" id="blue" value="blue" />
+                                <label for="blue">Blue</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="x" id="white" value="white" />
+                                <label for="white">White</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="x" id="green" value="green" />
+                                <label for="green">Green</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="x" id="red" value="red" />
+                                <label for="red">Red</label>
+                            </li>
 
                         </ul>
                     </div>
                     <div className="availability">
                         <div className='title'>
-                        <h2>availability</h2>
+                            <span className="classtitle">availability</span>
                             <i id='chevron' class="fa-solid fa-chevron-up"></i>
                         </div>
                         <ul>
@@ -154,7 +188,7 @@ const Products = () => {
                             <p>showing 1-15 of 300 result</p>
                         </div>
                         <div className="short">
-                            <span>Short by:</span>
+                            <span >Short by:</span>
                             <span className='btn_list'>Default Sorting <i class="fa-solid fa-chevron-down"></i></span>
                             <span className='btn_list'>Size <i class="fa-solid fa-chevron-down"></i></span>
                         </div>
