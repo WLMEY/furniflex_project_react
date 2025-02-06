@@ -8,7 +8,7 @@ const PriceRange = () => {
     const end    = document.getElementById("end")
     const valueS = document.getElementById("valueS")
     const valueE = document.getElementById("valueE")
-    const slider = document.getElementById("slider")
+    const slider = document.getElementById("slider")   
 
     function updata() {
         const startValue = parseInt(start.value)
