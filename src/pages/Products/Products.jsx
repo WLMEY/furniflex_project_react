@@ -24,7 +24,7 @@ const Products = () => {
         setFavorite(prevfavorite => (prevfavorite === id ? !favorite : id));
 
 
-    }
+    }  
 
 
     const calcprice = (price, discount) => {
@@ -90,7 +90,7 @@ const Products = () => {
                         </div>
                         <div className="price_value">
                             <span className='money'>10,000$-50,000$</span>
-                            <PriceRange/>
+                            {/* <PriceRange/> */}
                         </div>
 
                     </div>
