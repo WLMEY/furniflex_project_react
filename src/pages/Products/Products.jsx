@@ -9,7 +9,7 @@ import '../../styles/styles';
 // import productlist from './../../assets/data/product list';
 import data from '../../assets/data/product list'
 import ClientSay from './../Home/clients say';
-import PriceRange from './price range';
+import PriceRange from './price range'; 
 const Products = () => { 
     
 
