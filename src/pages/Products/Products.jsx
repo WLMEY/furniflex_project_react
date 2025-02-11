@@ -23,7 +23,7 @@ const Products = () => {
             }
         })
         setFavorite(prevfavorite => (prevfavorite === id ? !favorite : id));
-
+ 
 
     }  
 
