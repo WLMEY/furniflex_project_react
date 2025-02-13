@@ -10,7 +10,7 @@ import '../../styles/styles';
 import data from '../../assets/data/product list'
 import ClientSay from './../Home/clients say';
 import PriceRange from './price range'; 
-const Products = () => { 
+const Products = () => {    
     
 
 
