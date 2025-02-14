@@ -12,7 +12,7 @@ import ClientSay from './../Home/clients say';
 import PriceRange from './price range'; 
 const Products = () => {    
     
-
+   
 
     const [favorite, setFavorite] = useState(null);
     const clicked = (id) => {
