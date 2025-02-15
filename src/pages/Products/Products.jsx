@@ -14,6 +14,8 @@ const Products = () => {
     
    
 
+
+    
     const [favorite, setFavorite] = useState(null);
     const clicked = (id) => {
         // console.log(id)
