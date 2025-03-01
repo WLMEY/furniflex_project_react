@@ -23,7 +23,8 @@ const Home = () => {
 
 
         <div className="HOME">
-            <Header />
+            {/* <Header /> */}
+            
             {/* <FeaturedCategories /> */}
             {/* <TrendingProducts/> */}
             {/* <Subscribe/> */}
