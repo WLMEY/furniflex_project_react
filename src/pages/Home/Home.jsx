@@ -12,6 +12,7 @@ import FreeStuff from './free stuff';
 import FlashSale from './flash sall';
 import Explore from './Explore';
 import Questions from './questions';
+import ProductDetails from '../product details/ProductDetails';
 
 
 const Home = () => {
@@ -31,6 +32,7 @@ const Home = () => {
             {/* <FlashSale/> */}
             {/* <Explore/> */}
             {/* <Questions/> */}
+            <ProductDetails/>
 
 
 
