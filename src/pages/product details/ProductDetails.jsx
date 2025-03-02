@@ -6,6 +6,7 @@ import StarterBage from '../../component/starterbage/Starter bage ';
 import Advertising from '../../component/Advertising/Advertising';
 import EndHome from '../../component/End Home/End Home';
 import ShoppingCart from './../../component/Shopping Cart/Shopping Cart';
+import Horizontalscrolling from './Horizontal scrolling';
 const ProductDetails = () => {
 
 
@@ -123,7 +124,15 @@ const ProductDetails = () => {
             </div>
         </div>
 
-        
+        <div className="DiscoverSI HS">
+            <h2>Descover similar items</h2>
+            <Horizontalscrolling/>
+        </div>
+        <div className="customerFV HS">
+            <h2>Customer frequently viewed</h2>
+            <span>Popular products in the last 7 days</span>
+            <Horizontalscrolling/>
+        </div>
 
 
 
