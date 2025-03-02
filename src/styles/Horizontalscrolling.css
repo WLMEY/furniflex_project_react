@@ -3,5 +3,11 @@
 
 
 .Horizontalscrolling{
-    
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    gap:3vw;
+}
+.Horizontalscrolling .product_show{
+
 }

@@ -10,34 +10,25 @@ import '../../styles/styles';
 import data from '../../assets/data/product list'
 import ClientSay from './../Home/clients say';
 import PriceRange from './price range'; 
+
 const Products = () => {    
     
-   
-
-
     
     const [favorite, setFavorite] = useState(null);
     const clicked = (id) => {
-        // console.log(id)
         data.map((item) => {
             if (id === item.id) {
                 item.favorite = !item.favorite;
             }
         })
         setFavorite(prevfavorite => (prevfavorite === id ? !favorite : id));
- 
-
     }  
-
-
     const calcprice = (price, discount) => {
         var newprice = price - (price * (discount / 100))
         // newprice=Math.round(newprice)
         newprice = Number(newprice.toFixed(2))
         return newprice;
     }
-
-
     function changechevron() {
         const chevron = document.getElementById("chevron");
         if (chevron.style.transform === "rotate(180deg)") {

@@ -150,6 +150,8 @@
 .HS h2{
     font-size: var(--text_pc_header);
     font-weight: 100;
+    padding: 5vb 0;
+
 }
 .HS span{
     font-size: var(--text_pc_Paragraph);
