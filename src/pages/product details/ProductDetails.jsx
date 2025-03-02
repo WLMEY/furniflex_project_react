@@ -21,6 +21,7 @@ const ProductDetails = () => {
     let Prce = 125;
     let discount = 26;
     let productId = 516512;
+    let textDescription = 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur non voluptatem nostrum minima hic natus dolore repellendus, unde optio inventore a, accusantium quaerat suscipit expedita facilis cupiditate aut? Hic deleniti, modi debitis incidunt atque ipsam quaerat qui odit dicta dolor tempore consectetur iure excepturi officia inventore cumque deserunt itaque dolorum aut assumenda aliquam omnis nemo quos fugiat. Perferendis, culpa optio.';
 
 
     return (<div className='productDetails'>
@@ -56,7 +57,7 @@ const ProductDetails = () => {
             </div>
             <div className="textshowdeitailse">
                 <div className="saveday">
-                <div className="left_save">
+                    <div className="left_save">
                         <i className="fa-solid fa-arrow-up-right-from-square"></i>
                         <span>Save {savemony}$</span>
 
@@ -90,6 +91,40 @@ const ProductDetails = () => {
 
             </div>
         </div>
+        <div className="descriptions">
+            <div className="des">
+                <span className='spanOn'>Description</span>
+                <span className='spanOff'>Additional information</span>
+                <span className='spanOff'>Review</span>
+            </div>
+            <p className='textDescription'>{textDescription}</p>
+        </div>
+        <div className="aboutthisitem">
+            <h2>About this item</h2>
+            <div>
+                <i className="fa-regular fa-circle-right"></i>
+                <span>Lorem Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus aliquid eaque aspernatur inventore, adipisci eum. ipsum dolor, sit amet ipsum dolor sit amet consectetur adipisicing elit. Doloribus aliquid eaque aspernatur inventore, adipisci eum. ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, sapiente.</span>
+            </div>
+            <div>
+                <i className="fa-regular fa-circle-right"></i>
+                <span>Lorem Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus aliquid eaque aspernatur inventore, adipisci eum. ipsum dolor, sit amet ipsum dolor sit amet consectetur adipisicing elit. Doloribus aliquid eaque aspernatur inventore, adipisci eum. ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, sapiente.</span>
+            </div>
+            <div>
+                <i className="fa-regular fa-circle-right"></i>
+                <span>Lorem Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus aliquid eaque aspernatur inventore, adipisci eum. ipsum dolor, sit amet ipsum dolor sit amet consectetur adipisicing elit. Doloribus aliquid eaque aspernatur inventore, adipisci eum. ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, sapiente.</span>
+            </div>
+            <div>
+                <i className="fa-regular fa-circle-right"></i>
+                <span>Lorem Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus aliquid eaque aspernatur inventore, adipisci eum. ipsum dolor, sit amet ipsum dolor sit amet consectetur adipisicing elit. Doloribus aliquid eaque aspernatur inventore, adipisci eum. ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, sapiente.</span>
+            </div>
+            <div>
+                <i className="fa-regular fa-circle-right"></i>
+                <span>Lorem Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus aliquid eaque aspernatur inventore, adipisci eum. ipsum dolor, sit amet ipsum dolor sit amet consectetur adipisicing elit. Doloribus aliquid eaque aspernatur inventore, adipisci eum. ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, sapiente.</span>
+            </div>
+        </div>
+
+        
+
 
 
 
