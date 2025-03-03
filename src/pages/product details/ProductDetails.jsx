@@ -10,7 +10,7 @@ import Horizontalscrolling from './Horizontal scrolling';
 import { animate, motion } from 'motion/react';
 
 const ProductDetails = () => {
-
+    let review=4.9 ,review2=170,review3=450;
     let img;
     let savemony = 25;
     let name = 'chir';
@@ -34,54 +34,61 @@ const ProductDetails = () => {
             <div className="imagesDetilse">
                 <div className="mainimage" style={{ img }}>
                     <img src="../../../Materials/chair/plastic chair 10.jpg" alt="" />
-                    {/* icons */}
-                    {/* icons */}
                     <div className="arrows ">
-                    <i className="fa-solid fa-arrow-left-long active_i"></i>
-                    <i className="fa-solid fa-arrow-right-long active_i"></i>
+                        <i className="fa-solid fa-arrow-left-long active_i"></i>
+                        <i className="fa-solid fa-arrow-right-long active_i"></i>
                     </div>
 
                 </div>
-                <motion.div whileTap={{scale:1.1 , borderBlockStyle:1}} className="imgdiv">
+                <motion.div whileHover={{ borderWidth: "1px", }} className="imgdiv">
                     <img src="../../../Materials/chair/plastic chair 10.jpg" alt="" />
                 </motion.div>
-                <div className="imgdiv"> 
+                <motion.div whileHover={{ borderWidth: "1px", }} className="imgdiv">
                     <img src="../../../Materials/chair/plastic chair 10.jpg" alt="" />
-                </div>
-                <div className="imgdiv">
+                </motion.div>
+                <motion.div whileHover={{ borderWidth: "1px", }} className="imgdiv">
                     <img src="../../../Materials/chair/plastic chair 10.jpg" alt="" />
-                </div>
-
-
+                </motion.div>
             </div>
+
+
             <div className="textshowdeitailse">
                 <div className="saveday">
                     <div className="left_save">
                         <i className="fa-solid fa-arrow-up-right-from-square"></i>
                         <span>Save {savemony}$</span>
-
                     </div>
                     <div className="right_save">
                         <p >choice Day</p>
                         <i className="fa-solid fa-calendar"></i>
                     </div>
-
-
-
                 </div>
+
                 <div className="ditilseitem">
                     <span>{name}</span>
-                    <p>ditils</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi tenetur aliquam accusamus qui assumenda architecto? Numquam doloribus, tempora assumenda in voluptatem laudantium nemo earum et adipisci, vero iusto, nulla id?</p>
                 </div>
+                <div className="productreviews">
                 <div className="prce">
-                    <span>$ {Prce - discount}</span>
-                    <span><del>$ {Prce}</del></span>
+                    <span>${Prce - discount}</span>
+                    <span><del>${Prce}</del></span>
                 </div>
-                <div>
-                    <span>Product Code : {productId}</span>
+                <div className='stock'>
+                    <span className='stock_id'>Product Code : {productId}</span>
                     {/* <i className="fa-regular fa-square"></i> */}
                     <i className="fa-regular fa-square-check"></i>
-                    <span>in stock</span>
+                    <span className='instock'>in stock</span>
+                </div>
+                <div className="reviews">
+                <i className="fa-solid fa-star"></i>
+                <i className="fa-solid fa-star"></i>
+                <i className="fa-solid fa-star"></i>
+                <i className="fa-solid fa-star"></i>
+                <i className="fa-solid fa-star"></i>
+
+                    <span> {review}</span>
+                    <span className='Participants'> {review2} Reviews | {review3} sold</span>
+                </div>
                 </div>
 
 
