@@ -61,11 +61,6 @@ const Horizontalscrolling = () => {
                     ))
                 }
 
-
-
-
-
-
         </div>
     );
 }

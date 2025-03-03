@@ -7,14 +7,9 @@ import Advertising from '../../component/Advertising/Advertising';
 import EndHome from '../../component/End Home/End Home';
 import ShoppingCart from './../../component/Shopping Cart/Shopping Cart';
 import Horizontalscrolling from './Horizontal scrolling';
+import { animate, motion } from 'motion/react';
+
 const ProductDetails = () => {
-
-
-
-
-
-
-
 
     let img;
     let savemony = 25;
@@ -38,20 +33,23 @@ const ProductDetails = () => {
         <div className="itemshowdetilse">
             <div className="imagesDetilse">
                 <div className="mainimage" style={{ img }}>
-                    {/* img */}
-                    {/* <img src="../../../Materials/chair/plastic chair 10.jpg" alt="" /> */}
+                    <img src="../../../Materials/chair/plastic chair 10.jpg" alt="" />
                     {/* icons */}
-                    {/* icons */}e
+                    {/* icons */}
+                    <div className="arrows ">
+                    <i className="fa-solid fa-arrow-left-long active_i"></i>
+                    <i className="fa-solid fa-arrow-right-long active_i"></i>
+                    </div>
 
                 </div>
-                <div className="imgdiv">e
-                    {/* <img src="../../../Materials/chair/plastic chair 10.jpg" alt="" /> */}
+                <motion.div whileTap={{scale:1.1 , borderBlockStyle:1}} className="imgdiv">
+                    <img src="../../../Materials/chair/plastic chair 10.jpg" alt="" />
+                </motion.div>
+                <div className="imgdiv"> 
+                    <img src="../../../Materials/chair/plastic chair 10.jpg" alt="" />
                 </div>
-                <div className="imgdiv"> e
-                    {/* <img src="../../../Materials/chair/plastic chair 10.jpg" alt="" /> */}
-                </div>
-                <div className="imgdiv">e
-                    {/* <img src="../../../Materials/chair/plastic chair 10.jpg" alt="" /> */}
+                <div className="imgdiv">
+                    <img src="../../../Materials/chair/plastic chair 10.jpg" alt="" />
                 </div>
 
 
@@ -126,14 +124,13 @@ const ProductDetails = () => {
 
         <div className="DiscoverSI HS">
             <h2>Descover similar items</h2>
-            <Horizontalscrolling/>
+            <Horizontalscrolling />
         </div>
         <div className="customerFV HS">
             <h2>Customer frequently viewed</h2>
             <span>Popular products in the last 7 days</span>
-            <Horizontalscrolling/>
+            <Horizontalscrolling />
         </div>
-
 
 
 
