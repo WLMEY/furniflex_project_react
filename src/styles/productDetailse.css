@@ -177,6 +177,63 @@ margin-left: 1vw;
     color: var(--btn);
 }
 
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    justify-content: center;
+    align-items: start;
+}
+.quantity_product{
+    /* width: fit-content; */
+    padding:2vb;
+    gap: 1vw;
+    background-color: var(--color_bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+.quantity_product button{
+    background-color: white;
+    /* padding:1vb 2vb; */
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    /* width: 3vw; */
+    font-size: var(--text_pc_sup_header);
+}
+.quantity_product span{
+    font-size: var(--text_pc_sup_header);
+}
+
+.buttonbuy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding:0 2vw;
+}
+.buttonbuy button{
+    padding: 2vh 3vw;
+    border-radius:50px;
+    border: none;
+    color: white;
+    text-transform: capitalize;
+    font-size: var(--text_pc_sup_header);
+}
+.buttonbuy i{
+    padding: 2vb;
+    border: 1px solid var(--text_main3);
+    color:var(--text_main);
+    border-radius:50%;
+}
+
+
+
+
+
 
 
 

@@ -8,9 +8,10 @@ import EndHome from '../../component/End Home/End Home';
 import ShoppingCart from './../../component/Shopping Cart/Shopping Cart';
 import Horizontalscrolling from './Horizontal scrolling';
 import { animate, motion } from 'motion/react';
+import FreeStuff from './../Home/free stuff';
 
 const ProductDetails = () => {
-    let review=4.9 ,review2=170,review3=450;
+    let review = 4.9, review2 = 170, review3 = 450;
     let img;
     let savemony = 25;
     let name = 'chir';
@@ -69,27 +70,43 @@ const ProductDetails = () => {
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi tenetur aliquam accusamus qui assumenda architecto? Numquam doloribus, tempora assumenda in voluptatem laudantium nemo earum et adipisci, vero iusto, nulla id?</p>
                 </div>
                 <div className="productreviews">
-                <div className="prce">
-                    <span>${Prce - discount}</span>
-                    <span><del>${Prce}</del></span>
-                </div>
-                <div className='stock'>
-                    <span className='stock_id'>Product Code : {productId}</span>
-                    {/* <i className="fa-regular fa-square"></i> */}
-                    <i className="fa-regular fa-square-check"></i>
-                    <span className='instock'>in stock</span>
-                </div>
-                <div className="reviews">
-                <i className="fa-solid fa-star"></i>
-                <i className="fa-solid fa-star"></i>
-                <i className="fa-solid fa-star"></i>
-                <i className="fa-solid fa-star"></i>
-                <i className="fa-solid fa-star"></i>
+                    <div className="prce">
+                        <span>${Prce - discount}</span>
+                        <span><del>${Prce}</del></span>
+                    </div>
+                    <div className='stock'>
+                        <span className='stock_id'>Product Code : {productId}</span>
+                        {/* <i className="fa-regular fa-square"></i> */}
+                        <i className="fa-regular fa-square-check"></i>
+                        <span className='instock'>in stock</span>
+                    </div>
+                    <div className="reviews">
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
 
-                    <span> {review}</span>
-                    <span className='Participants'> {review2} Reviews | {review3} sold</span>
+                        <span> {review}</span>
+                        <span className='Participants'> {review2} Reviews | {review3} sold</span>
+                    </div>
                 </div>
+
+                <div className="buttons">
+                    <div className="quantity_product">
+                        <button>-</button>
+                        <span>01</span>
+                        <button>+</button>
+                    </div>
+                    <div className="buttonbuy">
+                        <motion.button style={{backgroundColor:"var(--btn)"}} whileTap={{scale:1.1}} transition={{mass:2,type:"spring",stiffness:400,}} >Buy Now</motion.button>
+                        <motion.button style={{backgroundColor:"var(--color_main)"}} whileTap={{scale:1.1}} transition={{mass:2,type:"spring",stiffness:400,}} >Add To Cart</motion.button>
+                        <i className="fa-regular fa-heart"></i>
+                        <i className="fa-solid fa-share-nodes"></i>
+
+                    </div>
                 </div>
+
 
 
 
