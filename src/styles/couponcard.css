@@ -1,0 +1,33 @@
+.coupon-card {
+    /* max-width: 400px; */
+    width: 100%;
+    
+  }
+  
+  .coupon-left {
+    writing-mode: sideways-lr	;
+    font-weight: bold;
+    border-radius: 20px;
+  }
+  
+  .coupon-cut {
+    width: 15px;
+    height: 30px;
+    background: white;
+    position: absolute;
+    border-radius: 50%;
+  }
+  
+  .left-cut {
+    left: -7px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .right-cut {
+    right: -7px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 20px;
+  }
+  

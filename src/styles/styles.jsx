@@ -24,5 +24,7 @@ import './products.css';
 import './price Range.css';
 import './productDetailse.css';
 import './Horizontalscrolling.css';
+import './couponcard.css';
+
 
   

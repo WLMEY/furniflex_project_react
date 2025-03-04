@@ -23,8 +23,8 @@ const Home = () => {
 
 
         <div className="HOME">
-            {/* <Header /> */}
-            
+            <Header />
+
             {/* <FeaturedCategories /> */}
             {/* <TrendingProducts/> */}
             {/* <Subscribe/> */}
@@ -34,6 +34,7 @@ const Home = () => {
             {/* <Explore/> */}
             {/* <Questions/> */}
             <ProductDetails/>
+
 
 
 

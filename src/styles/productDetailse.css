@@ -1,11 +1,13 @@
+
 .productDetails {
 
-    /* padding:0 5vw; */
+    padding:0 10vw;
 }
 
 
 .backto {
     color: var(--btn);
+    margin: 4vh 0 ;
 }
 
 .backto:hover {
@@ -18,8 +20,8 @@
     height: fit-content;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content:center;
+    align-items: start;
     /* background-color: antiquewhite; */
     gap: 20px;
 }
@@ -30,8 +32,9 @@
     /* background-color: aqua; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 2fr 1fr;
+    grid-template-rows: 2.6fr 1fr;
     gap: 10px;
+    justify-content: start;
 }
 
 
@@ -92,13 +95,15 @@
 
 .textshowdeitailse {
     width: 100%;
-    height: 80vh;
-    background-color: rgb(235, 238, 237);
+    /* height: 80vh; */
+    height: fit-content;
+    /* background-color: rgb(235, 238, 237); */
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: start;
     padding: 2vb;
+    gap: 1vh;
 }
 
 .saveday {
@@ -213,7 +218,7 @@ margin-left: 1vw;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding:0 2vw;
+    /* padding:0 2vw; */
 }
 .buttonbuy button{
     padding: 2vh 3vw;

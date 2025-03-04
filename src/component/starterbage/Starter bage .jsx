@@ -10,8 +10,6 @@ const StarterBage = (props) => {
         
         <h1>{mainText}</h1>
         
-
-
         </div>
 
 
