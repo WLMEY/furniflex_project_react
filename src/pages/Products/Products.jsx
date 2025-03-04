@@ -10,9 +10,11 @@ import '../../styles/styles';
 import data from '../../assets/data/product list'
 import ClientSay from './../Home/clients say';
 import PriceRange from './price range'; 
+import { Navigate, useNavigate } from 'react-router';
 
 const Products = () => {    
-    
+const navigate = useNavigate();
+
     
     const [favorite, setFavorite] = useState(null);
     const clicked = (id) => {
@@ -192,7 +194,7 @@ const Products = () => {
                                             <span className='text1'>${calcprice(item.price, item.discountvalue)} </span>
                                             <span className={item.discount ? "text2" : "none"} ><del> ${item.price}</del></span>
                                         </div>
-                                        <i className="fa-solid fa-cart-shopping shop_p"></i>
+                                        <i  onClick={() => navigate("/products/ProductDetails")}  className="fa-solid fa-cart-shopping shop_p"> </i>
 
                                     </div>
                                 </div>

@@ -8,6 +8,8 @@ import EndHome from '../../component/End Home/End Home';
 import Horizontalscrolling from './Horizontal scrolling';
 import { motion } from 'motion/react';
 import CouponCard from './CouponCard';
+import { Navigate, useNavigate } from 'react-router';
+
 
 const ProductDetails = () => {
     let review = 4.9, review2 = 170, review3 = 450;

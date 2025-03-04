@@ -13,20 +13,22 @@ import AboutUs from './pages/About Us/AboutUs';
 import Contact from './pages/contact us/Contact';
 import Blog from './pages/Blog/Blog';
 import FeaturedCategories from './pages/Home/featured categories';
+import ProductDetails from './pages/product details/ProductDetails';
 
 // import 'src/styles/Scrollbar.css'
-const router=createBrowserRouter(
+const router = createBrowserRouter(
   createRoutesFromElements(
     <Route>
-      <Route path='/' element={<Home/>} />
-      <Route path='products' element={<Products/>} />
-      <Route path='Categories' element={<Categories/>} />
-      <Route path='AboutUs' element={<AboutUs/>} />
-      <Route path='Contact' element={<Contact/>} />
-      <Route path='Blog' element={<Blog/>} />
-      <Route path='ShoppingCartMain' element={<ShoppingCartMain/>} />
-
-
+      <Route path='/' element={<Home />} />
+      <Route path='products' element={<Products />} >
+        <Route index element={<Products />} />
+        <Route path='ProductDetails' element={<ProductDetails />} />
+      </Route>
+      <Route path='Categories' element={<Categories />} />
+      <Route path='AboutUs' element={<AboutUs />} />
+      <Route path='Contact' element={<Contact />} />
+      <Route path='Blog' element={<Blog />} />
+      <Route path='ShoppingCartMain' element={<ShoppingCartMain />} />
     </Route>
   )
 )
@@ -37,21 +39,21 @@ function App() {
 
 
 
-    // <BrowserRouter>
-    {/* <Header/> */}
-    {/* <FeaturedCategories/> */}
+  // <BrowserRouter>
+  {/* <Header/> */ }
+  {/* <FeaturedCategories/> */ }
 
-    {/* <Advertising /> */}
-    {/* < EndHome /> */}
-    {/* <ShoppingCart />  */}
+  {/* <Advertising /> */ }
+  {/* < EndHome /> */ }
+  {/* <ShoppingCart />  */ }
 
-    {/* <Home /> */}
-    {/* <ShoppingCartMain/> */}
+  {/* <Home /> */ }
+  {/* <ShoppingCartMain/> */ }
 
-    // </BrowserRouter>
-    
-  
-  
+  // </BrowserRouter>
+
+
+
 }
 
 export default App;
