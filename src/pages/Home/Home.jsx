@@ -14,6 +14,7 @@ import Explore from './Explore';
 import Questions from './questions';
 import ProductDetails from '../product details/ProductDetails';
 import ProductInformation from '../product details/Productinformation';
+import Review from '../product details/Review';
 
 
 const Home = () => {
@@ -35,7 +36,8 @@ const Home = () => {
             {/* <Explore/> */}
             {/* <Questions/> */}
             {/* <ProductDetails/> */}
-            <ProductInformation/>
+            {/* <ProductInformation/> */}
+            <Review/>
 
 
 

@@ -26,5 +26,5 @@ import './productDetailse.css';
 import './Horizontalscrolling.css';
 import './couponcard.css';
 import './productinformation.css';
-
+import './Review.css';
   
