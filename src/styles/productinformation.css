@@ -1,0 +1,11 @@
+
+
+
+
+.productinformation{
+
+}
+.title_sup{
+    text-transform: capitalize;
+    font-size: var(--text_pc_sup_header);
+}

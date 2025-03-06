@@ -13,6 +13,7 @@ import FlashSale from './flash sall';
 import Explore from './Explore';
 import Questions from './questions';
 import ProductDetails from '../product details/ProductDetails';
+import ProductInformation from '../product details/Productinformation';
 
 
 const Home = () => {
@@ -34,6 +35,7 @@ const Home = () => {
             {/* <Explore/> */}
             {/* <Questions/> */}
             {/* <ProductDetails/> */}
+            <ProductInformation/>
 
 
 
