@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: start;
     width: 100%;
-    height: fit-content;
+    height:max-content;
 
 }
 
@@ -16,16 +16,20 @@
     width: 100%;
     gap: 3vw;
     /* background-color: green; */
-    height: fit-content;
+    height: max-content;
 
 }
 
 .TechDetails {
     width: 100%;
+    height: max-content;
+
 }
 
 .addiInformation {
     width: 100%;
+    height: max-content;
+
 }
 
 table {
@@ -60,15 +64,6 @@ th {
     color: var(--btn);
 }
 
-.scandpart {
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center; 
-    width: 100%; */
-
-}
-
 tr:nth-child(even) {
     background-color: var(--color_bg);
 }
@@ -78,19 +73,20 @@ th {
 }
 
 
-.title_sup {
+.productinformation > div span  {
     text-transform: capitalize;
     font-size: var(--text_pc_sup_header);
     /* font-weight: 500; */
-    padding: 4vb;
-    width: 100%;
-    height: 5vh;
+    margin-bottom: 2vh !important;
 }
 
 .scandpart{
     width: 100%;
-    height: fit-content;
-
+    height: max-content;
+}
+.warrSupport{
+    width: 100% ;
+    height: max-content;
 
 }
 .scandpart .warrSupport  > p{

@@ -10,78 +10,84 @@ const ProductInformation = () => {
                 <div className="TechDetails">
                     <span className='title_sup'>technical details</span>
                     <table>
-                        <tr>
-                            <th>Features</th>
-                            <th>Details</th>
-                        </tr>
-                        <tr>
+                        <thead>
+                            <tr>
+                                <th>Features</th>
+                                <th>Details</th>
+                            </tr>
+                        </thead>
+                        <tbody>                        <tr>
                             <td>brand</td>
                             <td>KOLLEE</td>
                         </tr>
-                        <tr>
-                            <td>color</td>
-                            <td>black</td>
-                        </tr>
-                        <tr>
-                            <td>product dumemions</td>
-                            <td>24^Dx24.4W x35.8*H</td>
-                        </tr>
-                        <tr>
-                            <td>size</td>
-                            <td>larg</td>
-                        </tr>
-                        <tr>
-                            <td>back style</td>
-                            <td>solid back</td>
-                        </tr>
-                        <tr>
-                            <td>style</td>
-                            <td>modern</td>
-                        </tr>
-
-                        <tr>
-                            <td>unit count</td>
-                            <td>1.0 count</td>
-                        </tr>
+                            <tr>
+                                <td>color</td>
+                                <td>black</td>
+                            </tr>
+                            <tr>
+                                <td>product dumemions</td>
+                                <td>24^Dx24.4W x35.8*H</td>
+                            </tr>
+                            <tr>
+                                <td>size</td>
+                                <td>larg</td>
+                            </tr>
+                            <tr>
+                                <td>back style</td>
+                                <td>solid back</td>
+                            </tr>
+                            <tr>
+                                <td>style</td>
+                                <td>modern</td>
+                            </tr>
+                            <tr>
+                                <td>unit count</td>
+                                <td>1.0 count</td>
+                            </tr>
+                        </tbody>
                     </table>
                 </div>
 
                 <div className="addiInformation">
                     <span className='title_sup'>additional information</span>
                     <table className='tables'>
-                        <tr >
-                            <th>Features</th>
-                            <th>information</th>
-                        </tr>
-                        <tr>
-                            <td>ASIN</td>
-                            <td>Boljkh23</td>
-                        </tr>
-                        <tr>
-                            <td>customer Reviews</td>
-                            <td>4.0 </td>
-                        </tr>
-                        <tr>
-                            <td>product dumemions</td>
-                            <td>24^Dx24.4W x35.8*H</td>
-                        </tr>
-                        <tr>
-                            <td>bost seller Rank </td>
-                            <td>#323,653 in Home & kitchen</td>
-                        </tr>
-                        <tr>
-                            <td>Date first Amiable</td>
-                            <td> may 03,2025</td>
-                        </tr>
-                        <tr>
-                            <td> </td>
-                            <td> </td>
-                        </tr>
+                        <thead>
+                            <tr >
+                                <th>Features</th>
+                                <th>information</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>ASIN</td>
+                                <td>Boljkh23</td>
+                            </tr>
+                            <tr>
+                                <td>customer Reviews</td>
+                                <td>4.0 </td>
+                            </tr>
+                            <tr>
+                                <td>product dumemions</td>
+                                <td>24^Dx24.4W x35.8*H</td>
+                            </tr>
+                            <tr>
+                                <td>bost seller Rank </td>
+                                <td>#323,653 in Home & kitchen</td>
+                            </tr>
+                            <tr>
+                                <td>Date first Amiable</td>
+                                <td> may 03,2025</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                            </tr>
 
-                        <tr>
-                            <td> </td>
-                            <td> </td>
-                        </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
                     </table>
                 </div>
             </div>
