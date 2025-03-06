@@ -1,11 +1,94 @@
+.productinformation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
 
-
-
-
-.productinformation{
 
 }
-.title_sup{
+
+.fristpart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+    gap: 3vw;
+    /* background-color: green; */
+}
+
+.TechDetails {
+    width: 100%;
+}
+
+.addiInformation {
+    width: 100%;
+}
+
+table {
+
+    width: 100%;
+    margin-top: 2vh;
+    gap: 1vh;
+    border-radius: 30px;
+    overflow: hidden;
+
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(250, 250, 250, 1);
+}
+
+th,
+td {
+    /* padding: 2vb; */
+    height: 8vh;
+    padding: 0 2vw;
+    text-transform: capitalize;
+    color: var(--text_main2);
+}
+
+th {
+    color: white;
+}
+
+
+.yello {
+    color: var(--btn);
+}
+
+.scandpart {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    width: 100%; */
+
+}
+
+tr:nth-child(even) {
+    background-color: var(--color_bg);
+}
+
+th {
+    background-color: var(--color_main);
+}
+
+
+.title_sup {
     text-transform: capitalize;
     font-size: var(--text_pc_sup_header);
+    font-weight: 500;
+}
+
+
+
+
+
+@media (max-width:767px) {
+    .fristpart {
+        flex-direction: column;
+    }
+
 }
