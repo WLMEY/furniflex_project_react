@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: start;
     width: 100%;
-
+    height: fit-content;
 
 }
 
@@ -16,6 +16,8 @@
     width: 100%;
     gap: 3vw;
     /* background-color: green; */
+    height: fit-content;
+
 }
 
 .TechDetails {
@@ -79,9 +81,24 @@ th {
 .title_sup {
     text-transform: capitalize;
     font-size: var(--text_pc_sup_header);
-    font-weight: 500;
+    /* font-weight: 500; */
+    padding: 4vb;
+    width: 100%;
+    height: 5vh;
 }
 
+.scandpart{
+    width: 100%;
+    height: fit-content;
+
+
+}
+.scandpart .warrSupport  > p{
+    line-height: 2;
+    color: var(--text_main);
+    width: 80%;
+
+}
 
 
 
