@@ -5,7 +5,8 @@ const Review = () => {
     return (
 
         <div className="reviews">
-             
+          ولا اسمع صورت
+          
         </div>
       );
 }
