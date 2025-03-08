@@ -322,6 +322,7 @@
     font-size: var(--text_pc_btn);
 }
 
+
 .coutermer {
     display: flex;
     flex-direction: column;
@@ -403,10 +404,22 @@
     color: var(--text_main);
 }
 
+ .endcostomer {
+    display: flex;
+    
+
+}
+.endcostomer .pages{
+    padding-left:0;
+}
 
 
 
 
+
+.endcostomer , .coutermer, .startcontiner{
+    margin-bottom: 4vh;
+}
 
 
 
