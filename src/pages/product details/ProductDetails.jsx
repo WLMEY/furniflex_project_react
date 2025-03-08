@@ -9,6 +9,8 @@ import Horizontalscrolling from './Horizontal scrolling';
 import { motion } from 'motion/react';
 import CouponCard from './CouponCard';
 import { Navigate, useNavigate } from 'react-router';
+import Review from './Review';
+import ProductInformation from './Productinformation';
 
 
 const ProductDetails = () => {
@@ -124,6 +126,8 @@ const ProductDetails = () => {
                 </div>
                 <div className="descriptions">
                     <div className="des">
+                    {/* <ProductInformation/>
+                    <Review/> */}
                         <span className='spanOn'>Description</span>
                         <span className='spanOff'>Additional information</span>
                         <span className='spanOff'>Review</span>

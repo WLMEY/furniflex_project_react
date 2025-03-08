@@ -37,7 +37,10 @@ const Home = () => {
             {/* <Questions/> */}
             {/* <ProductDetails/> */}
             {/* <ProductInformation/> */}
-            <Review/>
+            {/* <Review/> */}
+
+
+            
 
 
 
