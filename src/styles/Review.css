@@ -1,4 +1,62 @@
+.reviews {
+    width: 100%;
+}
+
+.customerReviews {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    width: 100%;
+}
+
+.leftcontiner {
+    grid-column: 1/2;
+
+}
+
+.customerReviews >.rightcontiner {
+    grid-column: 2/4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0;
+
+}
+.star{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1vw;
+}
+.tape{
+    width: 80%;
+    height: 15px ;
+    background-color:var(--color_bg);
+    border-radius: 25px;
+    position: relative;
+
+}
+.tape::after{
+    content: '';
+    position: absolute;
+    width:70%;
+    height: 15px ;
+    background-color:var(--btn);
+    border-radius: 25px;
 
 
 
+}
 
+
+.CustomerSay {
+
+}
+.leftcontiner .stars{
+    color: var(--text_main3);
+    font-size: var(--text_pc_btn)!important;
+
+}
