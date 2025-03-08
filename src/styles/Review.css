@@ -1,5 +1,10 @@
 .reviews {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
 }
 
 .customerReviews {
@@ -55,7 +60,14 @@
 }
 
 
-.CustomerSay {}
+.CustomerSay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 5vh;
+
+}
 
 .leftcontiner .stars {
     color: var(--text_main3);

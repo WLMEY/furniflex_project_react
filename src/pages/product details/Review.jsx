@@ -62,10 +62,227 @@ const Review = () => {
           <span className='colo2'><i class="fa-solid fa-minus"></i>Size</span>
 
         </div>
+        <div className="customers">
+          <div className="startcontiner">
+            <div className="titles">
+              <div className="showresult">
+                <p>showing 1-15 of 300 result</p>
+              </div>
+              <div className="short">
+                <span >Short by:</span>
+                <span className='btn_list'>Default Sorting <i className="fa-solid fa-chevron-down"></i></span>
+                <span className='btn_list'>Size <i className="fa-solid fa-chevron-down"></i></span>
+              </div>
+            </div>
+
+            <div className="coutermer">
+
+              <div className="coustomercontiner">
+
+                <div className="userditils">
+                  <img src="../../../Materials/man/man2.jpg" alt="" />
+                  <div className="name">
+                    <span>name</span>
+                    <span className='verifed'>verifed purchase</span>
+                  </div>
+                </div>
+                <span className='reviewtext'>Comfortable, bang for your buck!</span>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae dolorem totam voluptatem dignissimos cupiditate consectetur voluptates id amet odio voluptatum!</p>
+                <span className='helpful'>3 people found this helpful</span>
+
+                <div className="btn_users">
+                  <button>Helpful</button>
+                  <button>Report</button>
+                </div>
+              </div>
+              <div className="coustomercontiner">
+
+                <div className="userditils">
+                  <img src="../../../Materials/man/man2.jpg" alt="" />
+                  <div className="name">
+                    <span>name</span>
+                    <span className='verifed'>verifed purchase</span>
+                  </div>
+                </div>
+                <span className='reviewtext'>Comfortable, bang for your buck!</span>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae dolorem totam voluptatem dignissimos cupiditate consectetur voluptates id amet odio voluptatum!</p>
+                <span className='helpful'>3 people found this helpful</span>
+
+                <div className="btn_users">
+                  <button>Helpful</button>
+                  <button>Report</button>
+                </div>
+              </div>
+              <div className="coustomercontiner">
+
+                <div className="userditils">
+                  <img src="../../../Materials/man/man2.jpg" alt="" />
+                  <div className="name">
+                    <span>name</span>
+                    <span className='verifed'>verifed purchase</span>
+                  </div>
+                </div>
+                <span className='reviewtext'>Comfortable, bang for your buck!</span>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae dolorem totam voluptatem dignissimos cupiditate consectetur voluptates id amet odio voluptatum!</p>
+                <span className='helpful'>3 people found this helpful</span>
+
+                <div className="btn_users">
+                  <button>Helpful</button>
+                  <button>Report</button>
+                </div>
+              </div>
+              <div className="coustomercontiner">
+
+                <div className="userditils">
+                  <img src="../../../Materials/man/man2.jpg" alt="" />
+                  <div className="name">
+                    <span>name</span>
+                    <span className='verifed'>verifed purchase</span>
+                  </div>
+                </div>
+                <span className='reviewtext'>Comfortable, bang for your buck!</span>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae dolorem totam voluptatem dignissimos cupiditate consectetur voluptates id amet odio voluptatum!</p>
+                <span className='helpful'>3 people found this helpful</span>
+
+                <div className="btn_users">
+                  <button>Helpful</button>
+                  <button>Report</button>
+                </div>
+              </div>
+              <div className="coustomercontiner">
+
+                <div className="userditils">
+                  <img src="../../../Materials/man/man2.jpg" alt="" />
+                  <div className="name">
+                    <span>name</span>
+                    <span className='verifed'>verifed purchase</span>
+                  </div>
+                </div>
+                <span className='reviewtext'>Comfortable, bang for your buck!</span>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae dolorem totam voluptatem dignissimos cupiditate consectetur voluptates id amet odio voluptatum!</p>
+                <span className='helpful'>3 people found this helpful</span>
+
+                <div className="btn_users">
+                  <button>Helpful</button>
+                  <button>Report</button>
+                </div>
+              </div>
+              <div className="coustomercontiner">
+
+                <div className="userditils">
+                  <img src="../../../Materials/man/man2.jpg" alt="" />
+                  <div className="name">
+                    <span>name</span>
+                    <span className='verifed'>verifed purchase</span>
+                  </div>
+                </div>
+                <span className='reviewtext'>Comfortable, bang for your buck!</span>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae dolorem totam voluptatem dignissimos cupiditate consectetur voluptates id amet odio voluptatum!</p>
+                <span className='helpful'>3 people found this helpful</span>
+
+                <div className="btn_users">
+                  <button>Helpful</button>
+                  <button>Report</button>
+                </div>
+              </div>
+              <div className="coustomercontiner">
+
+                <div className="userditils">
+                  <img src="../../../Materials/man/man2.jpg" alt="" />
+                  <div className="name">
+                    <span>name</span>
+                    <span className='verifed'>verifed purchase</span>
+                  </div>
+                </div>
+                <span className='reviewtext'>Comfortable, bang for your buck!</span>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae dolorem totam voluptatem dignissimos cupiditate consectetur voluptates id amet odio voluptatum!</p>
+                <span className='helpful'>3 people found this helpful</span>
+
+                <div className="btn_users">
+                  <button>Helpful</button>
+                  <button>Report</button>
+                </div>
+              </div>
+              <div className="coustomercontiner">
+
+                <div className="userditils">
+                  <img src="../../../Materials/man/man2.jpg" alt="" />
+                  <div className="name">
+                    <span>name</span>
+                    <span className='verifed'>verifed purchase</span>
+                  </div>
+                </div>
+                <span className='reviewtext'>Comfortable, bang for your buck!</span>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae dolorem totam voluptatem dignissimos cupiditate consectetur voluptates id amet odio voluptatum!</p>
+                <span className='helpful'>3 people found this helpful</span>
+
+                <div className="btn_users">
+                  <button>Helpful</button>
+                  <button>Report</button>
+                </div>
+              </div>
+              <div className="coustomercontiner">
+
+                <div className="userditils">
+                  <img src="../../../Materials/man/man2.jpg" alt="" />
+                  <div className="name">
+                    <span>name</span>
+                    <span className='verifed'>verifed purchase</span>
+                  </div>
+                </div>
+                <span className='reviewtext'>Comfortable, bang for your buck!</span>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae dolorem totam voluptatem dignissimos cupiditate consectetur voluptates id amet odio voluptatum!</p>
+                <span className='helpful'>3 people found this helpful</span>
+
+                <div className="btn_users">
+                  <button>Helpful</button>
+                  <button>Report</button>
+                </div>
+              </div>
+              <div className="coustomercontiner">
+
+                <div className="userditils">
+                  <img src="../../../Materials/man/man2.jpg" alt="" />
+                  <div className="name">
+                    <span>name</span>
+                    <span className='verifed'>verifed purchase</span>
+                  </div>
+                </div>
+                <span className='reviewtext'>Comfortable, bang for your buck!</span>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae dolorem totam voluptatem dignissimos cupiditate consectetur voluptates id amet odio voluptatum!</p>
+                <span className='helpful'>3 people found this helpful</span>
+
+                <div className="btn_users">
+                  <button>Helpful</button>
+                  <button>Report</button>
+                </div>
+              </div>
 
 
 
 
+
+
+            </div>
+            <div className="endcostomer">
+
+              <div className="pages">
+                <button><i className="fa-solid fa-arrow-left-long"></i> Preview</button>
+                <div className="pageNumpers">
+                  <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>...</li>
+                    <li>14</li>
+                  </ul>
+                </div>
+                <button>Next <i className="fa-solid fa-arrow-right-long"></i></button>
+
+              </div>
+            </div>
+          </div>
+        </div>
 
       </div>
 
