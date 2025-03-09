@@ -15,7 +15,7 @@ const EndHome = () => {
                 </div>
                 <hr />
             </div>
-            <div className="pages">
+            <div className="pages_end">
                 <div className="about ">
                     {/* <NavLink to={'/'}>our Company</NavLink> */}
                     <li style={{ color: 'black' }}>about</li>

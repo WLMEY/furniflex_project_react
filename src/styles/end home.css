@@ -45,7 +45,7 @@ body {
     font-size: 50px;
 }
 
-.pages {
+.pages_end {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -109,7 +109,7 @@ body {
         align-items: center;
         width: 100%;
         height: fit-content;
-        margin-top: 2vh;
+        margin-top: 2vh;  
     }
     
     .start{
@@ -125,14 +125,14 @@ body {
         font-size: 30px;
     }
     
-    .pages {
+    .pages_end {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: start;
         padding: 3vh 3vw;
         list-style-type: none;
-        width: 100%;
+        width: 100% !important;
         height: fit-content;
         line-height: 30px;
         font-size: 12PX;

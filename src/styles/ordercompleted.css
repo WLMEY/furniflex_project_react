@@ -9,6 +9,8 @@
     /* gap: 0; */
     overflow: hidden;
     padding:0 20vw;
+    width: 100%;
+    gap: 2vh;
 
 
 }
@@ -38,4 +40,31 @@ line-height: 1.5;
 .ordertextstatus a{
     color: var(--color_main_hover);
     text-decoration: none;
+}
+.ordercompleted,.Ordercompletedsammary{
+    width: 100%;
+
+}
+.Ordercompletedsammary{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+
+}
+.Ordercompletedsammary table{
+    margin: auto;
+    width: 60%;
+}
+.btn_order{
+    background-color: var(--btn);
+    width: 60%;
+    height: 7vh;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    border: none;
+
 }
