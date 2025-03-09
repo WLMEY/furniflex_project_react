@@ -1,0 +1,41 @@
+
+
+
+
+.ordercompleted{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 0; */
+    overflow: hidden;
+    padding:0 20vw;
+
+
+}
+.ordercompleted img{
+    width: 30%;
+    transform: scale(1.5);
+    margin-bottom: 10vh;
+
+}
+.ordercompleted h1{
+    font-size: var(--text_pc_header);
+    color: black !important;
+
+}
+.ordertextstatus{
+    align-self: start;
+}
+.ordertextstatus span{
+    font-size: var(--text_pc_header);
+    
+}
+.ordertextstatus p ,.ordercompleted p{
+color: var(--text_main2);
+line-height: 1.5;
+
+}
+.ordertextstatus a{
+    color: var(--color_main_hover);
+    text-decoration: none;
+}
