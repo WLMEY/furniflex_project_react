@@ -12,9 +12,79 @@
 
 }
 
+.getintouch{
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: start;
+gap:3vh;
+}
+.getintouch h2{
+    font-size: var(--text_pc_header);
+    /* color: var(--color_sup); */
+    text-align: center;
+}
+.getintouch p{
+    font-size: var(--text_pc_Paragraph);
+    line-height: 1.5;
+}
+.Packet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+
+}
+.Packet i{
+    padding: 2vb;
+    /* background-color: rgb(213, 213, 255);
+    color: #5e5efd; */
+    border-radius: 10px;
+}
+.Packet div{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.SocialMedia{
+    display: flex;
+    gap: 1vw;
+}
+.SocialMedia i{
+    color: var(--btn);
+    background-color: #fcf4e6;
+    padding: 1vb;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .sendusamessage{
+    width: 100%;
     background-color: var(--color_main);
     color: var(--color_sup);
     display: flex;
@@ -36,9 +106,9 @@
     border: none;
     border-radius: 15px;
     width: 100%;
-    height: 7vh;
+    height: 9vh;
 }
-.sendusamessage h2{
+.sendusamessage h2 {
     font-size: var(--text_pc_header);
     color: var(--color_sup);
     text-align: center;
@@ -47,7 +117,7 @@
     font-size: var(--text_pc_Paragraph);
     color: var(--text_main3);
     text-transform: capitalize;
-    margin-top: 1vh;
+    margin-top: 5vh;
 }
 .sendusamessage form{
     display: flex;
@@ -57,6 +127,24 @@
     /* gap: 1vh; */
     width: 100%;
 }
+.sendusamessage form textarea{
+    background-color: var(--color_main_hover);
+    color: var(--text_main3);
+    font-size: var(--text_pc_items);
+    width: 100%;
+    height: 20vh;
+    border-radius:25px;
+    padding: 1vb;
+    resize:none;
+}
+iframe{
+    border: none;
+    width: 100%;
+    height: 70vh;
+    margin: 5vh 0;
+}
+
+
 .sendusamessage .btn{
     background-color: var(--btn);
     border-radius: 50px;
@@ -70,6 +158,10 @@
 }
 .sendusamessage button{
     width:100%;
-    /* height: ; */
+    height: 9vh;
+    font-size: var(--text_pc_sup_header);
 
+}
+.sendusamessage button:hover{
+    color: var(--btn);
 }
