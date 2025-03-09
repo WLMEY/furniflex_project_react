@@ -1,0 +1,28 @@
+
+
+
+
+
+
+.ErrorPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 0;
+
+}
+.ErrorPage h1{
+    color: black !important;
+    font-weight: 500;
+    font-size: 5rem;
+
+}
+.ErrorPage p{
+    color: var(--text_main2);
+}
+.ErrorPage span{
+    color: var(--btn);
+    font-size: var(--text_pc_sup_header);
+    cursor: pointer;
+}

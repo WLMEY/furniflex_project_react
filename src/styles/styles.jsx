@@ -28,4 +28,5 @@ import './couponcard.css';
 import './productinformation.css';
 import './Review.css';
 import './contactus.css';
+import './ErrorPage.css';
   
