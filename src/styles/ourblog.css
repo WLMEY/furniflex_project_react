@@ -4,10 +4,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2vh;
+    gap: 5vh;
     padding: 0 10vw;
+    margin-bottom: 10vh;
 }
-
+.Blog .pages{
+    align-self: end;
+    padding: 1vh 0 5vh 0;
+}
 .Blog>span,
 .Blog>p {
     align-self: flex-start;
