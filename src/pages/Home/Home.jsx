@@ -17,6 +17,7 @@ import ProductInformation from '../product details/Productinformation';
 import Review from '../product details/Review';
 import ErrorPage from '../Error Page/ErrorPage';
 import Ordercompleted from '../order completed/ordercompleted';
+import Checkout from '../checkout/checkout';
 
 
 const Home = () => {
@@ -42,7 +43,7 @@ const Home = () => {
             {/* <Review/> */}
             {/* <ErrorPage/> */}
             {/* <Ordercompleted/> */}
-
+            <Checkout/>
 
 
 

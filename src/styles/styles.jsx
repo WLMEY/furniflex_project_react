@@ -31,5 +31,5 @@ import './contactus.css';
 import './ErrorPage.css';
 import './ordercompleted.css';
 import './ourblog.css';
-
+import './checkout.css';
   

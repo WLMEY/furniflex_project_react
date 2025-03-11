@@ -1,0 +1,99 @@
+.checkout {
+    padding: 0 10vw;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 2fr 1fr;
+    gap: 5vw;
+    /* display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 1vh; */
+
+}
+
+.checkout_left {
+    grid: 1/1/2/2;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 2vh;
+    /* background-color: gray; */
+    /* border: 1px solid black; */
+}
+
+.form_information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 3vh;
+    width: 100%;
+}
+
+
+
+.checkout_right {
+    grid: 1/2/2/3;
+    width: 100%;
+    /* background-color: red; */
+
+}
+
+.required {
+    color: red;
+    font-size: smaller;
+
+
+}
+
+.title_label {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vh 1vw;
+
+}
+
+.form_information input {
+    width: 100%;
+    padding: 1vb;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--color_bg);
+
+
+}
+
+/* لازاله الاسهم منمدخل الارقام  */
+.form_information input[type="number"] {
+    appearance: none;
+
+}
+
+.form_information label {
+    color: var(--text_main2);
+    font-size: var(--text_pc_Paragraph);
+}
+
+.form_information div {
+    width: 100%;
+}
+
+.row1,
+.row2,
+.row5 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 1vw;
+}
+
+.row3,
+.row4 {
+    width: 100%;
+}
