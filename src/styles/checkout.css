@@ -5,6 +5,7 @@
     grid-template-rows: 1fr;
     grid-template-columns: 2fr 1fr;
     gap: 5vw;
+    padding: 10vh;
     /* display: flex;
     justify-content: center;
     align-items: start;
@@ -59,7 +60,7 @@
 
 }
 
-.form_information input {
+.form_information input ,.input {
     width: 100%;
     padding: 1vb;
     border-radius: 10px;
@@ -86,7 +87,9 @@
 
 .row1,
 .row2,
-.row5 {
+.row5,
+.row6,
+.row7 {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -96,4 +99,31 @@
 .row3,
 .row4 {
     width: 100%;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    justify-content: start;
+    align-items: center;
+}
+.checkbox{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    padding: 1vh 0;
+}
+.checkbox_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 1vw;
+    color: var(--text_main);
+    
+
+}
+.checkbox_row input:hover ,.checkbox_row label:hover{
+    color: var(--btn);
 }

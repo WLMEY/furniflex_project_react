@@ -86,30 +86,77 @@ const Checkout = () => {
                     </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 </form>
+
+                <div className="par2">
+                    <span  >How would you like to pay</span>
+                    <div className="grid">
+
+                        <div className="flex">
+                            <input type="radio" name="pay" id="1" />
+                            <label htmlFor="1">pay with credit card</label>
+
+                        </div>
+                        <div className="flex">
+                            <input type="radio" name="pay" id="2" />
+                            <label htmlFor="2">pay with paypal</label>
+
+                        </div>
+                        <div className="flex">
+                            <input type="radio" name="pay" id="3" />
+                            <label htmlFor="3">UsE gift card</label>
+
+                        </div>
+                    </div>
+                    <div className="row6">
+                        <div>
+                            <div className="title_label">
+                                <label>Name on card</label>
+                                <span className='required'>Required</span>
+                            </div>
+                            <input className='input' type="text" placeholder='eduard franz' />
+                        </div>
+                        <div>
+                            <div className="title_label">
+                                <label>cad number</label>
+                                <span className='required'>Required</span>
+                            </div>
+                            <input className='input' type="text" placeholder='92345792374589' />
+                        </div>
+                    </div>
+                    <div className="row7">
+                        <div>
+                            <div className="title_label">
+                                <label>Exploration</label>
+                                <span className='required'>Required</span>
+                            </div>
+                            <input className='input' type="text" placeholder='5/24' />
+                        </div>
+                        <div>
+                            <div className="title_label">
+                                <label>CCV</label>
+                                <span className='required'>Required</span>
+                            </div>
+                            <input className='input' type="text" placeholder='...' />
+                        </div>
+                    </div>
+                    <div className='checkbox'>
+                        <div className="checkbox_row">
+                            <input type="checkbox" name="" id="9" />
+                            <label htmlFor="9">Use shipping address as biling address</label>
+
+                        </div>
+                        <div className="checkbox_row">
+                            <input type="checkbox" name="" id="8" />
+                            <label htmlFor="8">i accept byredo terms & conditions</label>
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
 
 
 
