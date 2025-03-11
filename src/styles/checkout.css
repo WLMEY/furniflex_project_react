@@ -26,7 +26,7 @@
     /* border: 1px solid black; */
 }
 
-.form_information {
+.form_information ,.par2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,6 +41,10 @@
     grid: 1/2/2/3;
     width: 100%;
     /* background-color: red; */
+
+}
+.grid{
+    color: var(--text_main2);
 
 }
 
@@ -62,7 +66,7 @@
 
 .form_information input ,.input {
     width: 100%;
-    padding: 1vb;
+    padding: 2vb;
     border-radius: 10px;
     border: none;
     background-color: var(--color_bg);
@@ -76,7 +80,7 @@
 
 }
 
-.form_information label {
+.form_information label ,.par2 label{
     color: var(--text_main2);
     font-size: var(--text_pc_Paragraph);
 }
@@ -127,3 +131,40 @@
 .checkbox_row input:hover ,.checkbox_row label:hover{
     color: var(--btn);
 }
+
+.title_checkout{
+    font-size: var(--text_pc_header);
+    text-transform: capitalize;
+    display: block;
+    padding: 2vh 0;
+    width: 100%;
+
+}
+.par2 div{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.cans{
+    background-color: grey;
+    margin-left: 2vw;
+}
+.checkout_left .order_summary .contant .btn_chekout{
+    display: flex;
+    /* flex-direction: ; */
+    justify-content: center;
+    align-items: center;
+    /* padding: 1vb; */
+    text-align: center;
+
+}
+

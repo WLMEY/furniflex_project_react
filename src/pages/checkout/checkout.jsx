@@ -89,7 +89,7 @@ const Checkout = () => {
                 </form>
 
                 <div className="par2">
-                    <span  >How would you like to pay</span>
+                    <span  className='title_checkout' >How would you like to pay?</span>
                     <div className="grid">
 
                         <div className="flex">
@@ -183,7 +183,10 @@ const Checkout = () => {
                         <span className="all_column">Add coupon code <i className="fa-solid fa-arrow-right-long"></i> </span>
                         <span className='total'>total</span>
                         <span className='total'>$774.96</span>
-                        <button className="all_column btn_chekout">Proceed to Checkout</button>
+                        {/* all_column */}
+                        <button className=" btn_chekout">confrm payment</button>
+                        <button className=" btn_chekout cans">cancel</button>
+
                     </div>
                 </div>
             </div>
