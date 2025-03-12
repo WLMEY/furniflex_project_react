@@ -168,6 +168,9 @@ const Checkout = () => {
 
 
 
+
+
+
             </div>
             <div className="checkout_right">
 
