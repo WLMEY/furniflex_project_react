@@ -45,7 +45,7 @@ const Home = () => {
             {/* <ErrorPage/> */}
             {/* <Ordercompleted/> */}
             {/* <Checkout/> */}
-            <Blogdetails/>
+            {/* <Blogdetails/> */}
 
 
 

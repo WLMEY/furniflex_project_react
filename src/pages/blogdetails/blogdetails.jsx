@@ -15,15 +15,15 @@ const Blogdetails = () => {
 
             <div className="Blogdetails">
 
-                <div className="welcome">
+                <div className="welcome flexcolumngap">
                     <span className='title_blog bigtitle'>welcome to our blog!</span>
                     <p className='g'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem dolorum eos provident ad suscipit doloribus a, et, iure quae dolor, pariatur mollitia aliquid recusandae animi voluptas. Ullam nemo dolore ipsum, sint iusto autem sunt quo! Quidem corrupti pariatur, cumque ipsa rem, id aliquam possimus veritatis minus consequuntur unde quis hic?</p>
-                    <div className="written">
+                    <div className="written flexcolumngap">
                         <div className="image_blog">
                             <img src="" alt="" />
 
                         </div>
-                        <div className="ditils_written">
+                        <div className="ditils_written ">
                             <div className="left_written">
                                 <span className='sub_title'>How to keep your furniture clean</span>
                                 <p> <span className='g'>by</span> Robert Fox <span className='g'>On</span> <span className='y'>Apr 2024</span></p>                        </div>
@@ -36,7 +36,8 @@ const Blogdetails = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="topdesign">
+                </div>
+                <div className="topdesign flexcolumngap">
                         <span className="bigtitle">
                             Transform your living Room with These  <br />
                             Top 5 Design Tips
@@ -56,24 +57,8 @@ const Blogdetails = () => {
 
                         <span className='sub_title'>5. optimize lighting</span>
                         <p className='g'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem soluta, provident molestias, laboriosam culpa a, magnam aspernatur amet sit tenetur repellat ut dolorem quas itaque obcaecati veniam consectetur assumenda. Mollitia! Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus fugiat aspernatur nesciunt earum temporibus iure explicabo? Molestias harum adipisci voluptatibus velit, neque optio excepturi praesentium veniam in animi ad sint.</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                     </div>
-                </div>
+
             </div>
 
 
