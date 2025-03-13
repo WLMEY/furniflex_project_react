@@ -1,4 +1,4 @@
-
+ 
 
 
 
@@ -63,6 +63,11 @@
 .inputEmail input:focus {
     border: none;
     outline: none;
+}
+.btn_sub{
+    background-color: var(--btn) !important ;
+    color: white !important;
+    border-radius: 50px !important;
 }
 .btn{
     width: fit-content;

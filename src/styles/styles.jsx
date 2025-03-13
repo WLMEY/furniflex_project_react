@@ -32,4 +32,7 @@ import './ErrorPage.css';
 import './ordercompleted.css';
 import './ourblog.css';
 import './checkout.css';
+import './Blogdetails.css';
+
+
   
