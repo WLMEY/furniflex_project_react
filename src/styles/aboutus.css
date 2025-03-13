@@ -1,0 +1,49 @@
+.aboutus {
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    /* text-align: center; */
+
+}
+
+.title_aboutus {
+    display: block;
+    margin: 4vh 0;
+}
+
+.title_text_about {
+        text-align: center;
+
+    margin: 10vh 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+
+
+
+
+
+
+
+.bigtitle {
+    font-size: var(--text_pc_header);
+
+}
+
+.sub_title {
+    font-size: var(--text_pc_sup_header);
+    text-transform: capitalize;
+}
+
+.g {
+    color: var(--text_main2);
+    line-height: 1.5;
+}
+
+.y {
+    color: var(--btn);
+}
