@@ -33,7 +33,8 @@ import './ordercompleted.css';
 import './ourblog.css';
 import './checkout.css';
 import './Blogdetails.css';
-import './aboutus.css'
+import './aboutus.css';
+import './Team.css';
 
 
   

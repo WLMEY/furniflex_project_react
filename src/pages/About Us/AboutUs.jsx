@@ -4,6 +4,7 @@ import StarterBage from '../../component/starterbage/Starter bage ';
 import Advertising from '../../component/Advertising/Advertising';
 import EndHome from '../../component/End Home/End Home';
 import ClientSay from '../Home/clients say';
+import Team from '../../component/team/team';
 const AboutUs = () => {
     return (
         <>
@@ -35,6 +36,8 @@ const AboutUs = () => {
 
             {/* /////////////////////////////////////////////////////////////////// */}
 
+
+                <Team/>
 
                 <ClientSay/>
 
