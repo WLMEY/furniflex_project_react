@@ -31,7 +31,8 @@
 
 .bigtitle {
     font-size: var(--text_pc_header);
-
+    text-transform: capitalize;
+    
 }
 
 .sub_title {

@@ -3,7 +3,6 @@ body {
     flex-direction: column;
     gap: 2vh;
     height: 50vh;
-    padding: 20px;
     font-family: Arial;
 }
 

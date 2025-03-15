@@ -28,7 +28,17 @@ const AboutUs = () => {
 
             {/* /////////////////////////////////////////////////////////////////// */}
 
+            <div className="storys">
 
+                <div className="image_story">
+                    <img src="#" alt="" />
+                </div>
+                <div className="text_story">
+                        icon
+                        <span className='bigtitle'>from humble beginnings</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quia, ullam inventore dolorum ipsam saepe. Harum architecto repellendus aliquam officiis, temporibus illo dolorum assumenda facere odit pariatur facilis! Accusantium, deleniti?</p>
+                </div>
+            </div>
 
 
 
