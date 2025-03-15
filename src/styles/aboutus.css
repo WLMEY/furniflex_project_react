@@ -1,10 +1,11 @@
 .aboutus {
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 5vh;
     /* text-align: center; */
+    padding: 0 10vw;
 
 }
 
@@ -14,12 +15,24 @@
 }
 
 .title_text_about {
-        text-align: center;
+    text-align: center;
 
     margin: 10vh 0;
     display: flex;
     flex-direction: column;
     gap: 2vh;
+}
+.image_about{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh !important;
+    width: 100% !important;
+}
+.image_about img{
+
+    width: 100%;
 }
 
 
@@ -32,7 +45,7 @@
 .bigtitle {
     font-size: var(--text_pc_header);
     text-transform: capitalize;
-    
+
 }
 
 .sub_title {
@@ -48,3 +61,99 @@
 .y {
     color: var(--btn);
 }
+
+.storys {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 5vh;
+    /* padding: 0 10vw; */
+}
+.storys div:nth-child(odd){
+    flex-direction: row-reverse;
+}
+.storys div:nth-child(odd) .image_story{
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+}
+.storys div:nth-child(even) .image_story{
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 150px;
+
+}
+
+.row_storys {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 2vw;
+}
+
+.row_storys>div {
+    width: 50%;
+    /* padding: ; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.image_story {
+    /* padding: 0 10vw; */
+
+    background-color: red;
+    overflow: hidden;
+    max-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-top-left-radius: 150px;
+    border-bottom-left-radius: 150px; */
+
+}
+.image_story img{
+    width: 100%;
+}
+
+
+
+
+
+.text_story {
+
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1vh;
+    /* padding: 0 10vw; */
+
+}
+
+.text_story i {
+    padding: 2vb;
+    color: var(--btn);
+    background-color: beige;
+    border-radius: 15px;
+
+    font-size: var(--text_pc_items);
+
+}
+
+/* .text_story  */
