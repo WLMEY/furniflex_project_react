@@ -1,7 +1,3 @@
-
-
-
-
 import './all.css';
 import './Advertising.css';
 import './Header.css';
@@ -35,6 +31,3 @@ import './checkout.css';
 import './Blogdetails.css';
 import './aboutus.css';
 import './Team.css';
-
-
-  

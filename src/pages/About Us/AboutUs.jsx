@@ -13,7 +13,7 @@ const AboutUs = () => {
             <div className='aboutus'>
 
                 <span style={{ textAlign: 'center' }} className='title_blog bigtitle title_aboutus'>discover Furniflex - <br />Wher innovation Meets Design</span>
-                <div className="written flexcolumngap">
+                <div className="written ">
                     <div style={{ textAlign: 'center' }} className="image_blog image_about">
                         <img src="../../../Materials/woman/woman3.jpg" alt="" />
 
@@ -80,16 +80,7 @@ const AboutUs = () => {
                             <p className='g'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quia, ullam inventore dolorum ipsam saepe. Harum architecto repellendus aliquam officiis, temporibus illo dolorum assumenda facere odit pariatur facilis! Accusantium, deleniti?</p>
                         </div>
                     </div>
-
-
-
-
                 </div>
-
-
-
-
-
                 {/* /////////////////////////////////////////////////////////////////// */}
 
 

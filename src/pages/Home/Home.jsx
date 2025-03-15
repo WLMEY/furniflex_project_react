@@ -50,15 +50,6 @@ const Home = () => {
 
 
 
-
-
-
-
-
-
-
-
-
             <div className="StartHome">
                 <div className="Firsthalf">
                     <div className="text">

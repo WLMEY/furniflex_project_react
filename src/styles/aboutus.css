@@ -16,7 +16,6 @@
 
 .title_text_about {
     text-align: center;
-
     margin: 10vh 0;
     display: flex;
     flex-direction: column;
@@ -29,6 +28,9 @@
     align-items: center;
     height: 40vh !important;
     width: 100% !important;
+}
+.written{
+    width: 100%;
 }
 .image_about img{
 
