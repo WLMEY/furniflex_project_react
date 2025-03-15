@@ -71,7 +71,7 @@ const Home = () => {
                             <span>Unique Styles</span>
                         </div>
                         <div className="Statistic">
-                            <h3>5000+</h3>
+                            <h3>5000+</h3>     
                             <span>Happy Customer</span>
                         </div>
                         <div className="Statistic">
