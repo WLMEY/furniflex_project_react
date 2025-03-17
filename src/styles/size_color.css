@@ -39,18 +39,10 @@ html {
   font-size: 16px;
   /* الحجم الافتراضي */
 }
-
-/* للشاشات الصغيرة جدًا (الهواتف الذكية الصغيرة) */
-@media (max-width: 480px) {
-  html {
-    font-size: 14px;
-  }
-}
-
 /* للشاشات الصغيرة (الهواتف الذكية العادية) */
-@media (min-width: 481px) and (max-width: 768px) {
+@media  (max-width: 768px) {
   html {
-    font-size: 15px;
+    font-size: 12px;
   }
 }
 
@@ -65,12 +57,5 @@ html {
 @media (min-width: 1025px) and (max-width: 1440px) {
   html {
     font-size: 17px;
-  }
-}
-
-/* للشاشات الكبيرة جدًا (الشاشات العريضة أو 4K) */
-@media (min-width: 1441px) {
-  html {
-    font-size: 18px;
   }
 }
