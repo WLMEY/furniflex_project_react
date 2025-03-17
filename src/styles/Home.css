@@ -428,24 +428,39 @@ body {
         display: flex;
         flex-direction: row;
         justify-content:space-between;
-        align-items: center;
-        gap: 1vh;
+        align-items:center;
+        /* gap: 2vw; */
+        position: static;
+
     }
     .Items .image img{
         width: 100%;
         height: fit-content;
         background-color: transparent;
-        position: static;
+        /* position: static; */
         /* transform: scale(1.2); */
         /* mix-blend-mode:  hard-light */
     
     }
     .items_show .Items .image {
-        width: 50%;
-        position: static !important;
+        width: 100%;
+        border-radius: 0;
+        position: static;
         transform: scale(1);
-        background-color: red;
+        background-color:red;
     }
+    .texts {
+        display: flex;
+        flex-direction: column;
+        align-items:start;
+        gap: 5px;
+        padding: 10px;
+        line-height: 1.5;
+        width: 100%;
+        
+    
+    }
+    
 
 
 
