@@ -430,33 +430,36 @@ body {
         justify-content:space-between;
         align-items:center;
         /* gap: 2vw; */
-        position: static;
+        position: static !important;
 
     }
     .Items .image img{
-        width: 100%;
+        width: 80%;
         height: fit-content;
         background-color: transparent;
         /* position: static; */
         /* transform: scale(1.2); */
         /* mix-blend-mode:  hard-light */
-    
+    /* display: none; */
     }
     .items_show .Items .image {
-        width: 100%;
+        width: 50%;
         border-radius: 0;
         position: static;
         transform: scale(1);
-        background-color:red;
+        /* z-index: 0; */
+        /* background-color:red; */
+        
     }
     .texts {
-        display: flex;
+        position: static !important;
+        display: flex ;
         flex-direction: column;
         align-items:start;
         gap: 5px;
         padding: 10px;
         line-height: 1.5;
-        width: 100%;
+        width: 50%;
         
     
     }
