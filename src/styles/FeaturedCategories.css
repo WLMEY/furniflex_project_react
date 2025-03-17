@@ -1,6 +1,4 @@
-
-
-.Fetured{
+.Fetured {
     width: 100%;
     height: fit-content;
     display: flex;
@@ -10,66 +8,74 @@
     align-items: flex-start;
     gap: 10vh;
 }
-.F_text{
- font-size: var(--text_pc_header);
-text-transform: capitalize;
-display: flex;
-width: 100%;
-justify-content: space-between;
- 
+
+.F_text {
+    font-size: var(--text_pc_header);
+    text-transform: capitalize;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
 }
 
 
-.F_iteams{
-display: grid;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 5px;
-grid-template-columns: repeat(4,1fr);
-grid-template-rows: 1fr;
-width: 100%;
+.F_iteams {
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    width: 100%;
 }
-.F_product{
+
+.F_product {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 5vh;
 }
-.image{
-width: 250px;
-height: 250px ;
-overflow: hidden;
-border-radius: 50%;
-background-color: var(--color_bg);
-text-align: center;
-margin: auto;
+
+.image {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: var(--color_bg);
+    text-align: center;
+    margin: auto;
 }
-.image img{
-    width:250px;
+
+.image img {
+    width: 250px;
 }
-.F_product .detiles{
-text-align: center;
-display: flex;
-flex-direction: column;
-gap: 2vh;
+
+.F_product .detiles {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
 }
-.F_product .detiles span{
+
+.F_product .detiles span {
     font-size: var(--text_pc_sup_header);
-    text-transform:capitalize;
+    text-transform: capitalize;
 }
-.F_product .detiles p{
+
+.F_product .detiles p {
     font-size: var(--text_pc_items);
-    text-transform:capitalize;
+    text-transform: capitalize;
 
 }
-.Fetured .navigationBar{
+
+.Fetured .navigationBar {
     align-self: center;
-    
+
 }
 
-.Fetured .navigationBar .MotionSlices{
+.Fetured .navigationBar .MotionSlices {
     width: 200px;
     height: 50px;
     display: flex;
@@ -79,18 +85,55 @@ gap: 2vh;
     gap: 10px;
 }
 
-.Fetured .navigationBar .slice{
+.Fetured .navigationBar .slice {
     width: 20px;
-    height: 20px ;
+    height: 20px;
     border-radius: 50%;
-    background-color:var(--color_bg_btn);
+    background-color: var(--color_bg_btn);
 }
-.Fetured .navigationBar .slice:hover{
+
+.Fetured .navigationBar .slice:hover {
     width: 60px;
-    height: 20px ;
+    height: 20px;
     border-radius: 15px;
-    background-color:var(--color_main);
+    background-color: var(--color_main);
 
 
 }
 
+
+
+
+
+@media (max-width: 768px) {
+
+    .Fetured {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1vh 5vh;
+        align-items: flex-start;
+        gap: 2vh;
+    }
+
+    .F_text {
+        font-size: var(--text_pc_sup_header);
+        text-transform: capitalize;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+
+    }
+
+
+
+
+}
+
+/*   (الأجهزة اللوحية) */
+@media (min-width: 769px) and (max-width: 1024px) {}
+
+/*   (أجهزة اللابتوب) */
+@media (min-width: 1025px) and (max-width: 1440px) {}

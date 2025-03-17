@@ -1,6 +1,3 @@
-
-
-
 .icon button {
     width: fit-content;
     padding: 5px 20px;
@@ -12,10 +9,28 @@
     color: #f3af30;
     margin: 0px 10px;
     font-size: 20px;
-
 }
 
 .icon button:hover {
     color: white;
     background-color: #f3af30;
+}
+
+/* للشاشات الصغيرة (الهواتف الذكية العادية) */
+@media (max-width: 768px) {
+
+    .icon button {
+        width: fit-content;
+        padding: 5px 20px;
+        color: white;
+        background-color: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 15px;
+        border: 1px solid rgb(214, 212, 212);
+        color: #f3af30;
+        margin: 0px 10px;
+        font-size: var(--text_pc_items);
+
+    }
+
 }

@@ -449,7 +449,6 @@ body {
         transform: scale(1);
         /* z-index: 0; */
         /* background-color:red; */
-        
     }
     .texts {
         position: static !important;
@@ -460,27 +459,8 @@ body {
         padding: 10px;
         line-height: 1.5;
         width: 50%;
-        
-    
     }
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   }
   
