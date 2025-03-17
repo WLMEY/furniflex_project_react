@@ -108,23 +108,40 @@
 @media (max-width: 768px) {
 
     .Fetured {
-        width: 100%;
-        height: fit-content;
-        display: flex;
-        flex-direction: column;
         justify-content: center;
         padding: 1vh 5vh;
-        align-items: flex-start;
         gap: 2vh;
     }
 
     .F_text {
         font-size: var(--text_pc_sup_header);
-        text-transform: capitalize;
-        display: flex;
-        width: 100%;
-        justify-content: space-between;
+    }
 
+    .F_product {
+        gap: 2vh;
+    }
+
+    .image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .image img {
+        width: 100%;
+    }
+
+    .Fetured .navigationBar .MotionSlices {
+        width: 110px;
+    }
+
+    .Fetured .navigationBar .slice {
+        width: 15px;
+        height: 15px;
+    }
+
+    .Fetured .navigationBar .slice:hover {
+        width: 25px;
+        height: 15px;
     }
 
 
