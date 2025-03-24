@@ -66,7 +66,6 @@ gap: 3vh;
     /* background-color: red; */
     font-size: var(--text_pc_btn);
     /* padding: 1vb; */
-
     width: 4vw;
     height: 5vh;
     border-radius:30px;
@@ -88,4 +87,22 @@ gap: 3vh;
     display: none;
     transition: all ease 0.5s;
 
+}
+@media (max-width:768px){
+    .question_c i{
+        color: var(--color_main);
+        background-color: white;
+        font-size: var(--text_pc_btn);
+        padding: 1.5vb;
+        border-radius:40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .questions{
+        padding: 2vb;
+        gap: 2vh;
+        }
 }

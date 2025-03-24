@@ -11,8 +11,6 @@
     padding: 5vb;
     background-color: var(--color_bg);
     margin: 0 10vw;
-    
-    
 }
 .leftcontiner{
     /* background-color: red; */
@@ -86,4 +84,16 @@
 .btn:hover{
     background-color: var(--btn_hover);
     cursor: pointer;
+}
+@media (max-width:768px){
+
+    .Subscribe{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+flex-direction: column;
+        padding: 2vb;
+        background-color: var(--color_bg);
+        margin: 0;
+    }
 }
