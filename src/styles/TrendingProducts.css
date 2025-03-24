@@ -203,6 +203,19 @@ gap: 3vh;
         border-radius: 20px;
         background-color: var(--color_bg);
     }
+    .TrendingProducts .products .procuct{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* padding: 2vb; */
+        width:calc((100%/3)-20px);
+        /* aspect-ratio: 1 / 1; */
+        height: 40vh;
+        border: 1px solid black;
+        border: none;
+        border-radius: 20px;
+        background-color: var(--color_bg);
+    }
 }
   
 /*   (الأجهزة اللوحية) */

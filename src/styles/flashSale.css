@@ -171,3 +171,25 @@
     color: var(--text_main2);
 
 }
+@media  (max-width: 768px) {
+    .flashSale {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2vb;
+        padding:2vb;
+    
+    }
+    .flashSale > div{
+        min-width: 50%;
+        width: 100%;
+    }
+    
+
+}
+  
+/*   (الأجهزة اللوحية) */
+@media (min-width: 769px) and (max-width: 1024px) {}
+
+/*   (أجهزة اللابتوب) */
+@media (min-width: 1025px) and (max-width: 1440px) {}
+
