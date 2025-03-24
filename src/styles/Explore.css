@@ -1,7 +1,4 @@
-
-
-
-.Explore{
+.Explore {
     width: 100%;
     padding: 10vh 10vw;
     display: flex;
@@ -11,26 +8,30 @@
     gap: 5vh;
 
 }
-.Explore .titel{
+
+.Explore .titel {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
-.Explore .titel span{
+
+.Explore .titel span {
     font-size: var(--text_pc_header);
     text-transform: capitalize;
 }
-.Explore .continer{
+
+.Explore .continer {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows:1fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
     gap: 2vw;
 
 }
-.Explore .continer .item{
+
+.Explore .continer .item {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,38 +40,87 @@
 
 }
 
-.Explore .continer .item .image{
+.Explore .continer .item .image {
     width: 100%;
     height: 30vb;
     border-radius: 20px;
-    background-color: red;
     display: flex;
     justify-content: center;
     /* align-items: center; */
     margin-bottom: 2vb;
-
-    
 }
-.Explore .continer .item .image img{
-    width:100%;
+
+.Explore .continer .item .image img {
+    width: 100%;
     transform: scale(1.1);
 }
-.Explore .continer .item .title{
+
+.Explore .continer .item .title {
     font-size: var(--text_pc_items2);
     font-weight: 500;
     text-transform: capitalize;
 
 }
-.name{
+
+.name {
     font-size: var(--text_pc_Paragraph);
     text-transform: capitalize;
 }
-.preposition{
+
+.preposition {
     font-size: var(--text_pc_Paragraph);
     color: var(--text_main2);
 }
-.date{
+
+.date {
     font-size: var(--text_pc_Paragraph);
     color: var(--btn);
     text-transform: uppercase;
+}
+
+@media(max-width:768px) {
+    .Explore {
+        width: 100%;
+        padding:2vb;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5vh;
+
+    }
+
+    .Explore .continer {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        gap: 3vh;
+        margin: 0;
+
+    }
+
+    .Explore .continer .item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 0vh;
+
+    }
+    .Explore .continer .item .image {
+        width: 100%;
+        height: 30vb;
+        border-radius: 20px;
+        background-color: var(--color_bg);
+        /* display: flex;
+        justify-content: center; */
+        margin-bottom: 2vb;
+        overflow: hidden;
+    }
+    .Explore .continer .item .image img{
+        width:fit-content;
+        /* aspect-ratio: 1/1; */
+
+    }
 }

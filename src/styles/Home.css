@@ -395,6 +395,7 @@ body {
     }
     .HOME{
         height:none;
+        /* padding: 0vh; */
     }
     .Firsthalf {
         width: 100%;

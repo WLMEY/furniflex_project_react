@@ -51,18 +51,20 @@
     display: flex;
     border: 1px solid black;
     padding: 3vh 3vw;
-    background-color: red;
+    background-color:var(--color_bg);
     justify-content: center;
     align-items: center;
 }
-.secandcontiner .comm_ditiles{
-display: flex;
-flex-direction: column;
-gap: 3vh;
-color: var(--color_bg_btn);
+
+.secandcontiner .comm_ditiles {
+    display: flex;
+    flex-direction: column;
+    gap: 0vh;
+    color: var(--color_bg_btn);
 
 }
-.secandcontiner .comm_ditiles .commant{
+
+.secandcontiner .comm_ditiles .commant {
     padding: 1vb;
     line-height: 1.5;
     font-size: var(--text_pc_Paragraph);
@@ -86,3 +88,60 @@ color: var(--color_bg_btn);
 
     background-color: red;
 }
+
+
+@media (max-width: 768px) {
+    .clientsay {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 2vb;
+        gap: 5vh;
+
+    }
+
+    .secandcontiner {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 2vw;
+
+
+    }
+
+    .secandcontiner .client {
+        display: none;
+
+    }
+
+    .secandcontiner .showComent {
+        background-color: var(--color_main);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3vw;
+    }
+    .secandcontiner .showComent .imag {
+        height: 30vh;
+    }
+    .secandcontiner .comm_ditiles {
+        display: flex;
+        flex-direction: column;
+        gap: 1vh;
+        color: var(--color_bg_btn);
+    
+    }
+    
+    .clientDitils{
+        padding-left: 2vb;
+    }
+
+}
+
+/*   (الأجهزة اللوحية) */
+@media (min-width: 769px) and (max-width: 1024px) {}
+
+/*   (أجهزة اللابتوب) */
+@media (min-width: 1025px) and (max-width: 1440px) {}
