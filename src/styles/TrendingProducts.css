@@ -98,7 +98,7 @@ gap: 3vh;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows:repeat(2,1fr);
     width: 100%;
-    height: 70vh;
+    height: fit-content;
     padding: 2vh 10vh 10vh 0;
     gap: 3vh;
 }
@@ -165,3 +165,48 @@ gap: 3vh;
     justify-self: center;
     align-self: center;
 }   
+
+
+
+@media  (max-width: 768px) {
+    .TrendingProducts .titel .btn{
+        padding: 1vh 1.5vw;
+    }
+    .TrendingProducts .titel span{
+        font-size: var(--text_pc_sup_header);
+    }
+    .TrendingProducts .products {
+        display: flex;
+        flex-wrap: wrap;
+        height:fit-content;
+        justify-content: center;
+        align-items: center;
+        gap:2vb;
+        width: 100%;
+        padding: 0;
+
+    }
+    .TrendingProducts{
+    padding-left: 2vb;
+    height: fit-content;
+    
+    }
+    .TrendingProducts .products .procuct{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* padding: 2vb; */
+        width:calc((100%/3)-20px);
+        aspect-ratio: 1 / 1;
+        border: 1px solid black;
+        border: none;
+        border-radius: 20px;
+        background-color: var(--color_bg);
+    }
+}
+  
+/*   (الأجهزة اللوحية) */
+@media (min-width: 769px) and (max-width: 1024px) {}
+
+/*   (أجهزة اللابتوب) */
+@media (min-width: 1025px) and (max-width: 1440px) {}
