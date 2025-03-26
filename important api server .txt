@@ -1,0 +1,20 @@
+انا في الخطوات اللي جيه دي هثبت الjson server في مشروع ال raact  علشان يشتغلو مع بعض 
+بس لو عايز اشغل السيرفر لوحده بس  بكتب الكومنت ده 
+json-server --watch db.json --port 4000
+
+
+
+
+أولا تشغيل الكومنت ده في ال مشروع لتثبيته 
+npm install json-server --save-dev
+
+
+ثانيا  تعديل ال Package.json 
+"scripts": {
+  "start": "concurrently \"npm run server\" \"react-scripts start\"",
+  "server": "json-server --watch db.json --port 5000"
+}
+
+
+و هذا الكومنت ل Concurrently لذا لم يكن موجود 
+npm install concurrently --save-dev
