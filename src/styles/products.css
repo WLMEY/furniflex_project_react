@@ -423,7 +423,28 @@
 
 
 
+@media(min-width:768px){
 
+    .showproducts {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+
+        padding:2vb;
+    }
+    .filters {
+        /* background-color: rebeccapurple; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: start;
+        
+    }
+
+
+}
 
 
 

@@ -64,7 +64,7 @@ const navigate = useNavigate();
 
 
                 <div id='filters' className="filters">
-                    <span className='filterTitle'>Filter Option</span>
+                    {/* <span className='filterTitle'>Filter Option</span> */}
                     <div className="category">
                         <div className="title">
                             <span className="classtitle">category</span>
@@ -82,7 +82,7 @@ const navigate = useNavigate();
                     <div className="price">
                         <div className="title">
                             <span className="classtitle">prive</span>
-                            <i id='chevron' className="fa-solid fa-chevron-up"></i>
+                            <i id='chevron' onClick={changechevron} className="fa-solid fa-chevron-up"></i>
                         </div>
                         <div className="price_value">
                             <span className='money'>10,000$-50,000$</span>

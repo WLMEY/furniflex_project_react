@@ -36,3 +36,16 @@ h1{
 
 
 }
+@media (max-width:768px){
+    .starterbage{
+        height: 12vh;
+    }
+
+
+h1{
+    color: white;
+    font-weight: 900;
+    font-size: 32px ;
+}
+
+}
