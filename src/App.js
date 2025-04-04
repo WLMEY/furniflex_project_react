@@ -1,5 +1,5 @@
 import { BrowserRouter, createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom';
-
+    
 import './App.css';
 import Header from './component/header/header';
 import Advertising from './component/Advertising/Advertising';
